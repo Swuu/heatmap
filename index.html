@@ -33,34 +33,37 @@
 	<p><def>Cal-Heatmap</def> is a javascript module to create a calendar heatmap.</p>
 
 	<div class="example clearfix full-width">
-		<script>
-			(function() {
-			var cal = new CalHeatMap();
-			cal.init({
-				itemSelector: "#example-i",
-				domain: "day",
-				rowLimit: 1,
-				domainGutter: 0,
-				data: "datas-years.json",
-				start: new Date(2000, 0, 5),
-				cellSize: 15,
-				cellPadding: 5,
-				range: 7,
-				verticalOrientation: true,
-				displayLegend: false,
-				label: {
-					position: "left",
-					offset: {
-						x: 20,
-						y: 12
+		<div>
+			<script>
+				(function() {
+				var cal = new CalHeatMap();
+				cal.init({
+					itemSelector: "#example-i",
+					domain: "day",
+					subDomain: "hour",
+					rowLimit: 1,
+					domainGutter: 0,
+					data: "datas-years.json",
+					start: new Date(2000, 0, 5),
+					cellSize: 15,
+					cellPadding: 5,
+					range: 7,
+					verticalOrientation: true,
+					displayLegend: false,
+					label: {
+						position: "left",
+						offset: {
+							x: 20,
+							y: 12
+						},
+						width: 110
 					},
-					width: 110
-				},
-				legend: [1, 2, 3, 4],
-				legendColors: ["#ecf5e2", "#232181"]
-			});
-			})();
-		</script>
+					legend: [1, 2, 3, 4],
+					legendColors: ["#ecf5e2", "#232181"]
+				});
+				})();
+			</script>
+		</div>
 	</div>
 
 	<div class="" style="padding-top: 10px; margin-right: 3px">
