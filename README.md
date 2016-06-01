@@ -1,1 +1,1 @@
-http://swuu.github.io/heatmap/
+http://swuu.github.io/theheat/
