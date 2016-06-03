@@ -33,12 +33,18 @@
 
       <div class="row">
         <div class="col-md-9 text-center">
+          <h3>{{ vm.activeExample.label }}</h3>
           <div>
             <button
               class="btn btn-info pull-right"
               ng-click="vm.editActiveExample()">
               <i class="glyphicon glyphicon-edit"></i> Edit in Plunker
             </button>
+            <uib-tabset>
+              <uib-tab heading="Demo" active="vm.showDemoTab">
+                <div id="demoContainer"></div>
+              </uib-tab>
+            </uib-tabset>
           </div>
         </div>
       </div>
