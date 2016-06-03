@@ -24,7 +24,7 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">THE HEAT : asfA Calendar View of App Store Releases</a>
+          <a class="navbar-brand" href="#">THE HEAT : A Calendar View of App Store Releases</a>
         </div>
       </div>
     </nav>
@@ -100,7 +100,14 @@
 
         <br class="visible-xs visible-sm">
 
-
+        <div class="col-md-6 text-center">
+          <div class="btn-group">
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'year'">Year</label>
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'month'">Month</label>
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Week</label>
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'Day'">Day</label>
+          </div>
+        </div>
 
       </div>
       <br>
