@@ -24,10 +24,57 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">THE HEAT : A Calendar View for App Store Releases</a>
+          <a class="navbar-brand" href="#">The Heat : A Calendar for App Store Releases</a>
         </div>
       </div>
     </nav>
+
+    <div class="container-fluid content">
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Examples
+            </div>
+            <div class="panel-body sidebar-nav">
+              <ul class="list-unstyled">
+                <li ng-repeat="demo in vm.examples track by $index">
+                  <a
+                    href="javascript:;"
+                    ng-click="vm.loadExample(demo)"
+                    ng-class="{active: vm.activeExample.key === demo.key}">
+                    {{ demo.label }}
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <h3>{{ vm.activeExample.label }}</h3>
+          <div>
+            <button
+              class="btn btn-info pull-right"
+              ng-click="vm.editActiveExample()">
+              <i class="glyphicon glyphicon-edit"></i> Edit in Plunker
+            </button>
+            <uib-tabset>
+              <uib-tab heading="Demo" active="vm.showDemoTab">
+                <div id="demoContainer"></div>
+              </uib-tab>
+              <uib-tab heading="JavaScript">
+                <div hljs hljs-source="vm.activeExample.javascript" hljs-language="javascript"></div>
+              </uib-tab>
+              <uib-tab heading="Markup">
+                <div hljs hljs-source="vm.activeExample.markup" hljs-language="html"></div>
+              </uib-tab>
+            </uib-tabset>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <script type="text/ng-template" id="modalContent.html">
       <div class="modal-header">
