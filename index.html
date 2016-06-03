@@ -32,25 +32,6 @@
     <div class="container-fluid content">
 
       <div class="row">
-        <div class="col-md-3">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              Examples
-            </div>
-            <div class="panel-body sidebar-nav">
-              <ul class="list-unstyled">
-                <li ng-repeat="demo in vm.examples track by $index">
-                  <a
-                    href="javascript:;"
-                    ng-click="vm.loadExample(demo)"
-                    ng-class="{active: vm.activeExample.key === demo.key}">
-                    {{ demo.label }}
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
         <div class="col-md-9">
           <h3>{{ vm.activeExample.label }}</h3>
           <div>
