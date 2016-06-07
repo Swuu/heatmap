@@ -4,6 +4,8 @@ angular
 
     var vm = this;
 
+    vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', draggable: true, resizable: true});
+
     //These variables MUST be set as a minimum for the calendar to work
     vm.calendarView = 'month';
     vm.viewDate = new Date();
