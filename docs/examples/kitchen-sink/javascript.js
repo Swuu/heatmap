@@ -4,8 +4,6 @@ angular
 
     var vm = this;
 
-    vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', draggable: true, resizable: true});
-
     //These variables MUST be set as a minimum for the calendar to work
     vm.calendarView = 'month';
     vm.viewDate = new Date();
@@ -36,7 +34,10 @@ angular
       }
     ];
 
-    vm.isCellOpen = true;
+    //ADD EVENTS HERE
+    vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(), endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(), draggable: true, resizable: true});
+    
+    vm.isCellOpen = false;
 
     vm.eventClicked = function(event) {
       alert.show('Clicked', event);
