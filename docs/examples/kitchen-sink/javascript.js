@@ -13,9 +13,7 @@ angular
         type: 'warning',
         startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(),
         endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(),
-        draggable: true,
-        resizable: true,
-        data: "THSI SID FADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewffFADKFNAWEFsdfwefhewfhweflhaewff"
+        data: "SWAG TEST ONE two THREESWAG TEST ONE two THREESWAG" + \n + "TEST ONE two THREESWAG TEST ONE two THREESWAG TEST ONE two THREESWAG TEST ONE two THREESWAG TEST ONE two THREESWAG TEST ONE two THREESWAG TEST ONE two THREE"
       }, {
         title: '<i class="glyphicon glyphicon-asterisk"></i> <span class="text-primary">Another event</span>, with a <i>html</i> title',
         type: 'info',
