@@ -18,10 +18,19 @@ angular
           date = new Date (X["Store Date"])
           vm.events.push({
             title: X["Content Title"],
-            type: 'important',
             startsAt: date,
+            AdamID: X["Adam ID"],
+            Artist: X["Artist"],
+            StoreType: X["Store Type"],
+            Genres: X["Genres"],
+            TrackingPriority: X["Tracking Priority"],
+            FeaturingPriority: X["Featuring Priority"],
+            Comments: X["Comments"],
+
+            type: 'important',
             draggable: true,
-            resizable: true});
+            resizable: true
+          });
         });
       });
     });
