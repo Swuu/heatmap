@@ -38,17 +38,10 @@ angular
     $(document).ready(function(){
       $.get("http://swumusic.com/json.html", function(data, status){
         var arr = JSON.parse(data);
-        var start;
-        var end;
 
         arr.map(function (X) {
-          start = new Date (X["Store Date"]);
-          start.setHours(00);
-
-          end = new Date (X["Store Date"]);
-          end.setHours(24);
-          console.log(end);
-          //vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: new Date (X["Store Date"]), endsAt: new Date (X["Store Date"]), draggable: true, resizable: true});
+          date = new Date (X["Store Date"])
+          vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: date, endsAt: date, draggable: true, resizable: true});
         });
       });
     });
