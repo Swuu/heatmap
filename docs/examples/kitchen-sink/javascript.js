@@ -35,16 +35,18 @@ angular
     ];
 
     //ADD EVENTS HERE
-    /*
     $(document).ready(function(){
-      $.get("http://swumusic.com/json.html", function(data, status) {
-          var arr = JSON.parse(data);
-          var i;
-          arr.map(function (X) {
-            //vm.events.push({title: X["Content Title"], type: 'important', startsAt: new Date (X["Store Date"]), endsAt: new Date (X["Store Date"]), draggable: true, resizable: true});
-          }
-      }
-    });*/
+      $.get("http://swumusic.com/json.html", function(data, status){
+        var arr = JSON.parse(data);
+        var i;
+        var cnt = 1;
+
+        var chartData = arr.map(function (X) {
+          
+        });
+      });
+    });
+    
     vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(), endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(), draggable: true, resizable: true});
     
     vm.isCellOpen = false;
