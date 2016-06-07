@@ -33,9 +33,6 @@ angular
         resizable: true
       }
     ];
-    console.log("STARTS AT: " + moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate());
-    console.log("ENDS AT: " + moment().startOf('week').add(1, 'week').add(9, 'hours').toDate());
-    console.log(" ");
 
     //ADD EVENTS HERE
     $(document).ready(function(){
@@ -44,6 +41,7 @@ angular
         
         arr.map(function (X) {
           console.log(new Date (X["Store Date"]));
+          console.log((new Date (X["Store Date"])).add(7, 'hours').toDate());
           vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: new Date (X["Store Date"]), endsAt: new Date (X["Store Date"]), draggable: true, resizable: true});
         });
       });
