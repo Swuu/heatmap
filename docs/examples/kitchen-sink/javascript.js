@@ -19,12 +19,12 @@ angular
           vm.events.push({
             Title: X["Content Title"],
             StartsAt: date,
-            Adam ID: X["Adam ID"],
+            AdamID: X["Adam ID"],
             Artist: X["Artist"],
-            Store Type: X["Store Type"],
+            StoreType: X["Store Type"],
             Genres: X["Genres"],
-            Tracking Priority: X["Tracking Priority"],
-            Featuring Priority: X["Featuring Priority"],
+            TrackingPriority: X["Tracking Priority"],
+            FeaturingPriority: X["Featuring Priority"],
             Comments: X["Comments"],
 
             type: 'important',
