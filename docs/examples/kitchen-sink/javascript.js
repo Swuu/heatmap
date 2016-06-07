@@ -39,8 +39,9 @@ angular
     $(document).ready(function(){
       $.get("http://swumusic.com/json.html", function(data, status){
         var arr = JSON.parse(data);
-        console.log(new Date (X["Store Date"]));
+        
         arr.map(function (X) {
+          console.log(new Date (X["Store Date"]));
           vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: new Date (X["Store Date"]), endsAt: new Date (X["Store Date"]), draggable: true, resizable: true});
         });
       });
