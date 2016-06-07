@@ -41,7 +41,7 @@ angular
         
         arr.map(function (X) {
           console.log(new Date (X["Store Date"]));
-          console.log((new Date (X["Store Date"])).add(7, 'hours').toDate());
+
           vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: new Date (X["Store Date"]), endsAt: new Date (X["Store Date"]), draggable: true, resizable: true});
         });
       });
