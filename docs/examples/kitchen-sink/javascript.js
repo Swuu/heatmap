@@ -16,12 +16,15 @@ angular
 
         arr.map(function (X) {
           date = new Date (X["Store Date"])
-          vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: date, endsAt: date, draggable: true, resizable: true});
+          vm.events.push({
+            title: X["Content Title"],
+            type: 'important',
+            startsAt: date,
+            draggable: true,
+            resizable: true});
         });
       });
     });
-
-    //vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(), endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(), draggable: true, resizable: true});
     
     vm.isCellOpen = false;
 
