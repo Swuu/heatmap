@@ -33,13 +33,12 @@ angular
         resizable: true
       }
     ];
+    console.log(moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate());
 
     //ADD EVENTS HERE
     $(document).ready(function(){
       $.get("http://swumusic.com/json.html", function(data, status){
         var arr = JSON.parse(data);
-        var i;
-        var cnt = 1;
 
         var chartData = arr.map(function (X) {
           vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: new Date (X["Store Date"]), endsAt: new Date (X["Store Date"]), draggable: true, resizable: true});
