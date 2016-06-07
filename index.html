@@ -40,11 +40,8 @@
               ng-click="vm.editActiveExample()">
               <i class="glyphicon glyphicon-edit"></i> Edit in Plunker
             </button>
-            <uib-tabset>
-              <uib-tab heading="Demo" active="vm.showDemoTab">
-                <div id="demoContainer"></div>
-              </uib-tab>
-            </uib-tabset>
+            <div id="demoContainer"></div>
+
           </div>
         </div>
         <div class="col-md-2"></div>
@@ -79,7 +76,7 @@
               class="btn btn-primary"
               mwl-date-modifier
               date="vm.viewDate"
-              decrement="vm.calendarView">
+              decrement="vm.calendarView"> 
               Previous
             </button>
             <button
