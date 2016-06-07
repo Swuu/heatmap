@@ -33,31 +33,7 @@ angular
 
     });
 
-    vm.dayClicked = function(day, dayClickedFirstRun, $event) {
 
-      if (!dayClickedFirstRun) {
-        vm.onTimespanClick({
-          calendarDate: day.date.toDate(),
-          calendarCell: day,
-          $event: $event
-        });
-        if ($event && $event.defaultPrevented) {
-          return;
-        }
-      }
-
-      vm.openRowIndex = null;
-      var dayIndex = vm.view.indexOf(day);
-      if (dayIndex === vm.openDayIndex) { //the day has been clicked and is already open
-        vm.openDayIndex = null; //close the open day
-        vm.cellIsOpen = false;
-      } else {
-        vm.openDayIndex = dayIndex;
-        vm.openRowIndex = Math.floor(dayIndex / 7);
-        vm.cellIsOpen = true;
-      }
-
-    };
 
     vm.highlightEvent = function(event, shouldAddClass) {
 
