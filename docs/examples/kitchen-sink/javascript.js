@@ -17,14 +17,14 @@ angular
         arr.map(function (X) {
           date = new Date (X["Store Date"])
           vm.events.push({
-            title: X["Content Title"],
-            startsAt: date,
-            AdamID: X["Adam ID"],
+            Title: X["Content Title"],
+            StartsAt: date,
+            Adam ID: X["Adam ID"],
             Artist: X["Artist"],
-            StoreType: X["Store Type"],
+            Store Type: X["Store Type"],
             Genres: X["Genres"],
-            TrackingPriority: X["Tracking Priority"],
-            FeaturingPriority: X["Featuring Priority"],
+            Tracking Priority: X["Tracking Priority"],
+            Featuring Priority: X["Featuring Priority"],
             Comments: X["Comments"],
 
             type: 'important',
