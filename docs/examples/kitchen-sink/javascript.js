@@ -41,10 +41,10 @@ angular
         var start;
 
         arr.map(function (X) {
-          start = new Date (X["Store Date"]
+          start = new Date (X["Store Date"]);
           start.setHours(00);
           console.log(start);
-          //console.log((new Date (X["Store Date"])).setHours(23));
+          
           vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: new Date (X["Store Date"]), endsAt: new Date (X["Store Date"]), draggable: true, resizable: true});
         });
       });
