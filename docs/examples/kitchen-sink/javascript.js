@@ -42,12 +42,12 @@ angular
         var cnt = 1;
 
         var chartData = arr.map(function (X) {
-          
+          vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(), endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(), draggable: true, resizable: true});
         });
       });
     });
-    
-    vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(), endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(), draggable: true, resizable: true});
+
+    //vm.events.push({title: 'WHATDDUP BITCHES', type: 'important', startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(), endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(), draggable: true, resizable: true});
     
     vm.isCellOpen = false;
 
