@@ -59,4 +59,4 @@ angular
       event[field] = !event[field];
     };
 
-  });
+  })
