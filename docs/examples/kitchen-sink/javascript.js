@@ -33,8 +33,10 @@ angular
         resizable: true
       }
     ];
-    console.log(moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate());
-
+    console.log("STARTS AT: "moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate());
+    console.log("ENDS AT: "moment().startOf('week').add(1, 'week').add(9, 'hours').toDate());
+    console.log(" ");
+    
     //ADD EVENTS HERE
     $(document).ready(function(){
       $.get("http://swumusic.com/json.html", function(data, status){
