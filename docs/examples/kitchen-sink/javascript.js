@@ -17,6 +17,7 @@ angular
 
         arr.map(function (X) {
           date = new Date (X["Store Date"]);
+          date.setDate(date.getDate() + 1);
           type = 'inverse';
 
           // color by tracking priority
