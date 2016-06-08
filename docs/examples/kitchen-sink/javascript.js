@@ -13,11 +13,12 @@ angular
     $(document).ready(function(){
       $.get("http://swumusic.com/json.html", function(data, status){
         var arr = JSON.parse(data);
-
+        var date, type;
         arr.map(function (X) {
-          var date = new Date (X["Store Date"]);
-          var type = 'important';
-          if (X["Featuring Priority"] >= 4) {
+          date = new Date (X["Store Date"]);
+          type = 'important';
+
+          if (X["Featuring Priority"] === 1) {
 
           }
 
@@ -26,7 +27,7 @@ angular
             startsAt: date,
             AdamID: X["Adam ID"],
             Artist: X["Artist"],
-            StoreType: X["Store Type"],
+            "Store Type": X["Store Type"],
             Genres: X["Genres"],
             TrackingPriority: X["Tracking Priority"],
             FeaturingPriority: X["Featuring Priority"],
