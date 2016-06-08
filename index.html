@@ -52,18 +52,7 @@
 
 <p id="demo"></p>
 
-<script>
-function myFunction() {
-    var hour = new Date().getHours(); 
-    var greeting;
-    if (hour < 18) {
-        greeting = "Good day";
-    } else {
-        greeting = "Good evening";
-    }
-    document.getElementById("demo").innerHTML = greeting;
-}
-</script>
+
 
 
         <p>
@@ -154,6 +143,20 @@ function myFunction() {
       </div>
       <br>
     </script>
+    
+<script>
+function myFunction() {
+    var hour = new Date().getHours(); 
+    var greeting;
+    if (hour < 18) {
+        greeting = "Good day";
+    } else {
+        greeting = "Good evening";
+    }
+    document.getElementById("demo").innerHTML = greeting;
+}
+</script>
+
     
     <script src="misc/moment.min.js"></script>
     <script src="misc/interact.min.js"></script>
