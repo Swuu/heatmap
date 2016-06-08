@@ -50,8 +50,7 @@
       <div class="modal-body">
         <p>
         <pre>
-          Release Date: <p id="date"></p>
-          <script>document.getElementById("date").innerHTML = vm.event.startAt.getDate();</script>
+          Release Date: {{ vm.event.startAt }}
           Adam ID: {{ vm.event.AdamID }}
 
           {{ vm.event | json }}
