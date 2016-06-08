@@ -51,8 +51,8 @@
         <p>
         <pre>
           Release Date: <p id="date"></p>
-
           <script>document.getElementById("date").innerHTML = vm.event.startAt.getDate();</script>
+          Adam ID: {{ vm.event["Adam ID"] }}
 
           {{ vm.event | json }}
         </pre>
