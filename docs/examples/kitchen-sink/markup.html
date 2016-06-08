@@ -128,26 +128,6 @@
           </uib-timepicker>
         </td>
         <td>
-          <p class="input-group" style="max-width: 250px">
-            <input
-              type="text"
-              class="form-control"
-              readonly
-              uib-datepicker-popup="dd MMMM yyyy"
-              ng-model="event.endsAt"
-              is-open="event.endOpen"
-              close-text="Close">
-            <span class="input-group-btn">
-              <button
-                type="button"
-                class="btn btn-default"
-                ng-click="vm.toggle($event, 'endOpen', event)">
-                <i class="glyphicon glyphicon-calendar"></i>
-              </button>
-            </span>
-          </p>
-        </td>
-        <td>
           <button
             class="btn btn-danger"
             ng-click="vm.events.splice($index, 1)">
