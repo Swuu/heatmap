@@ -50,10 +50,14 @@
       <div class="modal-body">
         <p>
         <pre>
-          Release Date: {{ vm.event.startAt }}
+          Artist: {{ vm.event.Artist }}
           Adam ID: {{ vm.event.AdamID }}
-
-          {{ vm.event | json }}
+          Release Date: {{ vm.event.startAt }}
+          Store Type: {{ vm.event.StoreType }}
+          Genres: {{ vm.event.Genres }}
+          Tracking Priority: {{ vm.event.TrackingPriority }}
+          Featuring Priority: {{ vm.event.FeaturingPriority }}
+          Comments: {{ vm.event.Comments }}
         </pre>
         </p>
       </div>
