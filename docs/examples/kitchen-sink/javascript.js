@@ -33,7 +33,7 @@ angular
 
           vm.events.push({
             title: X["Content Title"],
-            startsAt: date.getDate(),
+            startsAt: date,
             AdamID: X["Adam ID"],
             Artist: X["Artist"],
             StoreType: X["Store Type"],
@@ -43,8 +43,9 @@ angular
             Comments: X["Comments"],
 
             type: type,
-            draggable: true,
-            resizable: true
+            editable: true,
+            deletable: true,
+            draggable: true
           });
         });
       });
