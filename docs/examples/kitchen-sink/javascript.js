@@ -16,10 +16,7 @@ angular
         var date, type;
 
         arr.map(function (X) {
-          start = new Date (X["Store Date"]);
-          start.setHours(00);
-          end = new Date (X["Store Date"]);
-          end.setHours(23);
+          date = new Date (X["Store Date"]);
           type = 'inverse';
 
           // color by tracking priority
@@ -35,8 +32,7 @@ angular
 
           vm.events.push({
             title: X["Content Title"],
-            startsAt: start,
-            endsAt: end,
+            startsAt: date,
             "Adam ID": X["Adam ID"],
             "Artist": X["Artist"],
             "Store Type": X["Store Type"],
