@@ -37,6 +37,7 @@
         <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'year'">Year</label>
         <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'month'">Month</label>
         <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Week</label>
+        <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Day</label>
       </div>
     </div>
 
@@ -54,7 +55,7 @@
     edit-event-html="'<i class=\'glyphicon glyphicon-pencil\'></i>'"
     delete-event-html="'<i class=\'glyphicon glyphicon-remove\'></i>'"
     on-edit-event-click="vm.eventEdited(calendarEvent)"
-    on-delete-event-click="vm.events.splice($index, 1)"
+    on-delete-event-click="vm.eventDeleted(calendarEvent)"
     cell-is-open="vm.isCellOpen"
     day-view-start="06:00"
     day-view-end="22:00"
