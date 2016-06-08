@@ -14,24 +14,31 @@ angular
       $.get("http://swumusic.com/json.html", function(data, status){
         var arr = JSON.parse(data);
         var date, type;
+
         arr.map(function (X) {
           date = new Date (X["Store Date"]);
-          type = 'important';
+          type = 'inverse';
 
-          if (X["Featuring Priority"] === 1) {
-
+          if (X["Tracking Priority"] === 2) {
+            type = 'success'
+          }
+          else if (X["Tracking Priority"] === 3) {
+            type = 'warning'
+          }
+          else if (X["Tracking Priority"] === 4) {
+            type = 'important'
           }
 
           vm.events.push({
             title: X["Content Title"],
             startsAt: date,
-            AdamID: X["Adam ID"],
-            Artist: X["Artist"],
+            "Adam ID": X["Adam ID"],
+            "Artist": X["Artist"],
             "Store Type": X["Store Type"],
-            Genres: X["Genres"],
-            TrackingPriority: X["Tracking Priority"],
-            FeaturingPriority: X["Featuring Priority"],
-            Comments: X["Comments"],
+            "Genres": X["Genres"],
+            "Tracking Priority": X["Tracking Priority"],
+            "Featuring Priority": X["Featuring Priority"],
+            "Comments": X["Comments"],
 
             type: type,
             draggable: true,
