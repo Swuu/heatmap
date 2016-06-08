@@ -44,6 +44,8 @@
     </div>
 
     <script type="text/ng-template" id="modalContent.html">
+    var date = vm.event.startsAt
+    date.getDate();
       <div class="modal-header">
         <h3 class="modal-title">{{ vm.event.title }}</h3>
       </div>
@@ -60,7 +62,7 @@
           </tr>
           <tr>
             <td>Release Date</td>
-            <td>{{ vm.event.startsAt }}</td>
+            <td>date</td>
           </tr>
           <tr>
             <td>Store Type</td>

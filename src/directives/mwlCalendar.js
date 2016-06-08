@@ -16,7 +16,7 @@ angular
     };
 
     vm.dateClicked = function(date) {
-/*
+
       var rawDate = moment(date).toDate();
 
       var nextView = {
@@ -28,7 +28,7 @@ angular
       if (vm.onViewChangeClick({calendarDate: rawDate, calendarNextView: nextView[vm.view]}) !== false) {
         vm.changeView(nextView[vm.view], rawDate);
       }
-*/
+
     };
 
     var previousDate = moment(vm.viewDate);
