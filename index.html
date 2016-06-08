@@ -44,13 +44,10 @@
 
     <script type="text/ng-template" id="modalContent.html">
       <div class="modal-header">
-        <h3 class="modal-title">Event action occurred!</h3>
+        <h3 class="modal-title">{{ vm.event.title}}</h3>
       </div>
       <div class="modal-body">
-        <p>Action:
-        <pre>{{ vm.action }}</pre>
-        </p>
-        <p>Event:
+        <p>
         <pre>{{ vm.event | json }}</pre>
         </p>
       </div>
