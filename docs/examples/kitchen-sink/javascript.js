@@ -35,7 +35,8 @@ angular
 
           vm.events.push({
             title: X["Content Title"],
-            startsAt: date,
+            startsAt: start,
+            endsAt: end,
             "Adam ID": X["Adam ID"],
             "Artist": X["Artist"],
             "Store Type": X["Store Type"],
