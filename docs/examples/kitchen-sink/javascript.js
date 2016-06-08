@@ -19,14 +19,14 @@ angular
           date = new Date (X["Store Date"]);
           type = 'inverse';
 
-          if (X["Tracking Priority"] === 2) {
-            type = 'success'
-          }
-          else if (X["Tracking Priority"] === 3) {
-            type = 'warning'
-          }
-          else if (X["Tracking Priority"] === 4) {
-            type = 'important'
+          switch (X["Tracking Priority"]) {
+            case 2: type = 'success';
+              break;
+            case 3: type = 'warning';
+              break;
+            case 4: type = 'important';
+              break;
+            default:
           }
 
           vm.events.push({
