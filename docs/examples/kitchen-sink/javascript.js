@@ -16,9 +16,13 @@ angular
         var date, type;
 
         arr.map(function (X) {
-          date = new Date (X["Store Date"]);
+          start = new Date (X["Store Date"]);
+          start.setHours(00);
+          end = new Date (X["Store Date"]);
+          start.setHours(23);
           type = 'inverse';
 
+          // color by tracking priority
           switch (X["Tracking Priority"]) {
             case 2: type = 'success';
               break;
