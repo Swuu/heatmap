@@ -15,7 +15,12 @@ angular
         var arr = JSON.parse(data);
 
         arr.map(function (X) {
-          date = new Date (X["Store Date"])
+          var date = new Date (X["Store Date"]);
+          var type = 'important';
+          if (X["Featuring Priority"] >= 4) {
+
+          }
+
           vm.events.push({
             title: X["Content Title"],
             startsAt: date,
@@ -27,7 +32,7 @@ angular
             FeaturingPriority: X["Featuring Priority"],
             Comments: X["Comments"],
 
-            type: 'important',
+            type: type,
             draggable: true,
             resizable: true
           });
