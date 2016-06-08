@@ -61,7 +61,9 @@
 
           <p id="demo"></p>
           <script type="text/javascript">
-            document.getElementById("demo").innerHTML = vm.event.startsAt;
+            var date = vm.event.startsAt;
+            var d = date.getDate();
+            document.getElementById("demo").innerHTML = d;
           </script>
 
         </p>
