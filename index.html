@@ -49,15 +49,43 @@
       </div>
       <div class="modal-body">
         <p>
+        <thead>
+          <tr>
+            <th>Adam ID</th>
+            <th>{{ vm.event.AdamID }}</th>
+          </tr>
+        </thead>
 
-          Artist: {{ vm.event.Artist }} <br>
-          Adam ID: {{ vm.event.AdamID }} <br>
-          Release Date: {{ vm.event.startsAt }} <br>
-          Store Type: {{ vm.event.StoreType }} <br>
-          Genres: {{ vm.event.Genres }} <br>
-          Tracking Priority: {{ vm.event.TrackingPriority }} <br>
-          Featuring Priority: {{ vm.event.FeaturingPriority }} <br>
-          Comments: {{ vm.event.Comments }}
+        <tbody>
+          <tr>
+            <td>Artist</td>
+            <td>{{ vm.event.Artist }}</td>
+          </tr>
+          <tr>
+            <td>Release Date</td>
+            <td>{{ vm.event.startsAt }}</td>
+          </tr>
+          <tr>
+            <td>Store Type</td>
+            <td>{{ vm.event.StoreType }}</td>
+          </tr>
+          <tr>
+            <td>Genres</td>
+            <td>{{ vm.event.Genres }}</td>
+          </tr>
+          <tr>
+            <td>Tracking Priority</td>
+            <td>{{ vm.event.TrackingPriority }}</td>
+          </tr>
+          <tr>
+            <td>Featuring Priority</td>
+            <td>{{ vm.event.FeaturingPriority }}</td>
+          </tr>
+          <tr>
+            <td>Comments</td>
+            <td>{{ vm.event.Comments }}</td>
+          </tr>
+        </tbody>
 
         </p>
       </div>
