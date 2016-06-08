@@ -50,11 +50,9 @@
       <div class="modal-body">
 
 
-<p id="demo"></p>
+        <p id="demo"></p>
 
-
-
-
+<!--
         <p>
         <table>
           <tr>
@@ -91,6 +89,8 @@
           </tr>
         </table>
         </p>
+-->
+
 
 
       </div>
@@ -146,7 +146,15 @@
     
 
   <script>
-    document.getElementById("demo").innerHTML = "HELLOOOOOOOOOOOOOOOOOO"
+  var output;
+  if (vm.action === "Clicked") {
+    output = 
+    "<p><table><tr><td>Adam ID</td><td>{{ vm.event.AdamID }}</td></tr><tr><td>Artist</td><td>{{ vm.event.Artist }}</td></tr><tr><td>Release Date</td><td>{{ vm.event.startsAt }}</td></tr><tr><td>Store Type</td><td>{{ vm.event.StoreType }}</td></tr><tr><td>Genres</td><td>{{ vm.event.Genres }}</td></tr><tr><td>Tracking Priority</td><td>{{ vm.event.TrackingPriority }}</td></tr><tr><td>Featuring Priority &nbsp &nbsp</td><td>{{ vm.event.FeaturingPriority }}</td></tr><tr><td>Comments</td><td>{{ vm.event.Comments }}</td></tr></table></p>"}
+    
+
+
+
+    document.getElementById("demo").innerHTML = output;
   </script>
 
 
