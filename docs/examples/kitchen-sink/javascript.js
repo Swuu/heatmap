@@ -13,35 +13,21 @@ angular
     $(document).ready(function(){
       $.get("http://swumusic.com/json.html", function(data, status){
         var arr = JSON.parse(data);
-        var date, type;
 
         arr.map(function (X) {
-          date = new Date (X["Store Date"]);
-          type = 'inverse';
-
-          // color by tracking priority
-          switch (X["Tracking Priority"]) {
-            case 2: type = 'success';
-              break;
-            case 3: type = 'warning';
-              break;
-            case 4: type = 'important';
-              break;
-            default:
-          }
-
+          date = new Date (X["Store Date"])
           vm.events.push({
             title: X["Content Title"],
             startsAt: date,
-            "Adam ID": X["Adam ID"],
-            "Artist": X["Artist"],
-            "Store Type": X["Store Type"],
-            "Genres": X["Genres"],
-            "Tracking Priority": X["Tracking Priority"],
-            "Featuring Priority": X["Featuring Priority"],
-            "Comments": X["Comments"],
+            AdamID: X["Adam ID"],
+            Artist: X["Artist"],
+            StoreType: X["Store Type"],
+            Genres: X["Genres"],
+            TrackingPriority: X["Tracking Priority"],
+            FeaturingPriority: X["Featuring Priority"],
+            Comments: X["Comments"],
 
-            type: type,
+            type: 'important',
             draggable: true,
             resizable: true
           });
