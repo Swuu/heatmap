@@ -19,7 +19,7 @@ angular
           start = new Date (X["Store Date"]);
           start.setHours(00);
           end = new Date (X["Store Date"]);
-          start.setHours(23);
+          end.setHours(23);
           type = 'inverse';
 
           // color by tracking priority
