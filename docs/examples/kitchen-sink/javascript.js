@@ -11,7 +11,7 @@ angular
 
     //ADD EVENTS HERE
     $(document).ready(function(){
-      $.get("http://17.115.154.32/json.html", function(data, status){
+      $.get("http://swuu.github.io/theheat/json.html", function(data, status){
         var arr = JSON.parse(data);
         var date, type;
 
