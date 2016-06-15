@@ -1,1 +1,3 @@
-var slider_val = 3;
+var slider = {
+	value = 3;
+}

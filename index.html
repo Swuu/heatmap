@@ -62,17 +62,17 @@
     <!-- SLIDER JS -->
     <script type='text/javascript' src="misc/jquery.min.js"></script>
     <script type='text/javascript' src="misc/bootstrap-slider.js"></script>
-    <script type="text/javascript" src="js/global.js"></script> 
+    <script type="text/javascript" src="misc/global.js"></script> 
     <script type='text/javascript'>
       $(document).ready(function() {
-        /* Example 1 */
         $('#ex1').slider({
-              formatter: function(value) {
-                slider1 = value;
-                return 'Tracking Priority: ' + value;
-              }
-          });
-    });
+          formatter: function(value) {
+            slider.value = value;
+            console.log(slider.value);
+            return 'Tracking Priority: ' + value;
+          }
+        });
+      });
     
     </script>
 
