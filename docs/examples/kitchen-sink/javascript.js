@@ -58,6 +58,7 @@ angular
     vm.isCellOpen = false;
 
     vm.eventClicked = function(event) {
+      console.log("SLIDER VAL IS:  " + slider_val);
       alert.show('Clicked', event);
     };
 
