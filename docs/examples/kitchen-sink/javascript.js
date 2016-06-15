@@ -78,10 +78,3 @@ angular
       event[field] = !event[field];
     };
   });
-
-/*
-
-INCLUDE GLOBAL.JS IN THIS FILE
-SET SLIDER TO FILTER BY GLOBAL VARIABLE SLIDER1
-
-*/
