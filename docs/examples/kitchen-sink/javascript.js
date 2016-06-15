@@ -1,5 +1,3 @@
-
-
 angular
   .module('mwl.calendar.docs') //you will need to declare your module with the dependencies ['mwl.calendar', 'ui.bootstrap', 'ngAnimate']
   .controller('KitchenSinkCtrl', function(moment, alert) {
@@ -83,7 +81,6 @@ angular
 
 /*
 
-COPY OVER SLIDER TO INDEX FILE, AND INCLUDE GLOBAL.JS
 INCLUDE GLOBAL.JS IN THIS FILE
 SET SLIDER TO FILTER BY GLOBAL VARIABLE SLIDER1
 
