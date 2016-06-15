@@ -1,3 +1,3 @@
 var slider = {
-	value = 3;
+	value = 3
 }
