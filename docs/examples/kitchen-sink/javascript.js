@@ -3,6 +3,7 @@ angular
   .controller('KitchenSinkCtrl', function(moment, alert) {
 
     var vm = this;
+    var slider_val = 3;
 
     //These variables MUST be set as a minimum for the calendar to work
     vm.calendarView = 'month';

@@ -62,12 +62,11 @@
     <!-- SLIDER JS -->
     <script type='text/javascript' src="misc/jquery.min.js"></script>
     <script type='text/javascript' src="misc/bootstrap-slider.js"></script>
-    <script type="text/javascript" src="misc/global.js"></script> 
     <script type='text/javascript'>
       $(document).ready(function() {
         $('#ex1').slider({
           formatter: function(value) {
-            slider.value = value;
+            slider_val = value;
             console.log("SLIDER VALUE IS: " + slider.value);
             return 'Tracking Priority: ' + value;
           }
