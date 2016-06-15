@@ -77,5 +77,12 @@ angular
       $event.stopPropagation();
       event[field] = !event[field];
     };
-
   });
+
+/*
+
+COPY OVER SLIDER TO INDEX FILE, AND INCLUDE GLOBAL.JS
+INCLUDE GLOBAL.JS IN THIS FILE
+SET SLIDER TO FILTER BY GLOBAL VARIABLE SLIDER1
+
+*/
