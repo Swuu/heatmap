@@ -66,7 +66,7 @@
       $(document).ready(function() {
         $('#ex1').slider({
           formatter: function(value) {
-            slider_val = value;
+            console.log("SLIDER VAL IS:  " + slider_val);
             return 'Tracking Priority: ' + value;
           }
         });
