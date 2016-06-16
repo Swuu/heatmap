@@ -71,7 +71,7 @@
 
 
   <h3 id="event-editor">
-    Edit events WTF????
+    Edit events
     <button
       class="btn btn-primary pull-right"
       ng-click="vm.events.push({title: 'New event', type: 'important', draggable: true, resizable: true})">
@@ -151,7 +151,7 @@
     $(document).ready(function() {
       $('#ex1').slider({
         formatter: function(value) {
-          console.log("THIS:  " + this);
+          console.log("VM:  " + vm);
           return 'Tracking Priority: ' + value;
         }
       });
