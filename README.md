@@ -1,3 +1,3 @@
 THE HEAT: A Calendar View of App Store Releases
 
-Website: https://github.geo.apple.com/pages/stephen-wu/theheat
+Website: http://swuu.github.io/theheat/
