@@ -65,11 +65,13 @@
     <script type='text/javascript' src="misc/bootstrap-slider.js"></script>
     <script src="misc/angular.min.js"></script>
     <script type='text/javascript'>
+    console.log("ONE!!!!!!!");
     angular.module('mwl.calendar.docs', [])
       .controller('ExamplesCtrl as vm', ['$scope', function($scope) {
         console.log("SCOPE IS:  " + $scope.vm.event.startsAt);
-        console.log("WABBAFETT!!!!");
+        console.log("TWOOOOO!!!!");
       }]);
+    console.log("THREEE!!!!!!!");
 
       $(document).ready(function() {
         $('#ex1').slider({
