@@ -67,9 +67,8 @@
       $(document).ready(function() {
         $('#ex1').slider({
           formatter: function(value) {
-            vm.events.map(function (X) {
-              console.log("FUNCTION X:  " + X);
-            });
+            console.log("VM IS:  " + vm);
+            console.log("VM.EVENT IS:  " + vm.event);
             return 'Tracking Priority: ' + value;
           }
         });
