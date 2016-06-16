@@ -85,7 +85,7 @@
     <thead>
       <tr>
         <th>Title</th>
-        <th>Importance</th>
+        <th>Tracking Priority</th>
         <th>Release Date</th>
         <th>Remove</th>
       </tr>
@@ -136,9 +136,7 @@
         </td>
       </tr>
     </tbody>
-
   </table>
-
 </div>
 
 
@@ -151,6 +149,7 @@
     $(document).ready(function() {
       $('#ex1').slider({
         formatter: function(value) {
+          // HOW TO ACCESS VM???????????????????????????????
           return 'Tracking Priority: ' + value;
         }
       });
