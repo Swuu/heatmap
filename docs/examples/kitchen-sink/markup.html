@@ -151,7 +151,7 @@
     $(document).ready(function() {
       $('#ex1').slider({
         formatter: function(value) {
-          return 'Tracking Priority: ' + value;
+          return 'Tracking Priority: ' + this + value;
         }
       });
       // MAP VM.EVENTS GET, IF VM.EVENTS.TrackingPriority < value THEN DELETE (SPLICE)
