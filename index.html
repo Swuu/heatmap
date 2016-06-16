@@ -20,15 +20,15 @@
 >>>>>>> master
     <link href="docs/docs.css" rel="stylesheet">
 
+    <!-- SLIDER STUFF -->
     <link href="misc/bootstrap-slider.css" rel="stylesheet">
     <script src="misc/jquery-1.12.4.js"></script>
-
-    <!-- SLIDER CSS -->
     <style type='text/css'>
     #ex1Slider .slider-selection {
         background: #BABABA;
       }
     </style>
+    <!-- END SLIDER STUFF -->
 
   </head>
   <body ng-app="mwl.calendar.docs" ng-controller="ExamplesCtrl as vm" ng-cloak>
@@ -53,6 +53,9 @@
 
           <!-- SLIDER -->
           <div class="well">
+            {{ vm }}
+            {{ vm.events }}
+            {{ vm.event.title }}
             <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="4" data-slider-step="1" data-slider-value="3"/>
           </div>
         </div>
