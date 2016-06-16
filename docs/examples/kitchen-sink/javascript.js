@@ -52,6 +52,12 @@ angular
           });
         });
       });
+
+      $('#ex1').slider({
+        formatter: function(value) {
+          return 'Tracking Priority: ' + value;
+        }
+      });
     });
     
     vm.isCellOpen = false;
