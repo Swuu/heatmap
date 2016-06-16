@@ -71,7 +71,7 @@
 
 
   <h3 id="event-editor">
-    Edit events VM IS:  {{ vm.events }}
+    Edit events
     <button
       class="btn btn-primary pull-right"
       ng-click="vm.events.push({title: 'New event', type: 'important', draggable: true, resizable: true})">
@@ -147,21 +147,14 @@
   <script type='text/javascript' src="misc/jquery.min.js"></script>
   <script type='text/javascript' src="misc/bootstrap-slider.js"></script>
   <script type='text/javascript'>
-  console.log("ONE!!!!!!!");
-  angular.module('mwl.calendar.docs', [])
-    .controller('ExamplesCtrl as vm', ['$scope', function($scope) {
-      console.log("SCOPE IS:  " + $scope.vm.event.startsAt);
-      console.log("TWOOOOO!!!!");
-    }]);
-  console.log("THREEE!!!!!!!");
 
     $(document).ready(function() {
       $('#ex1').slider({
         formatter: function(value) {
+          vm.events.splice
           return 'Tracking Priority: ' + value;
         }
       });
-      // JUST NEED TO FIGURE OUT HOW TO ACCESS VM and VM.EVENT HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       // MAP VM.EVENTS GET, IF VM.EVENTS.TrackingPriority < value THEN DELETE (SPLICE)
     });
   
