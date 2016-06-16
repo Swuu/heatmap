@@ -20,16 +20,6 @@
 >>>>>>> master
     <link href="docs/docs.css" rel="stylesheet">
 
-    <!-- SLIDER STUFF -->
-    <link href="misc/bootstrap-slider.css" rel="stylesheet">
-    <script src="misc/jquery-1.12.4.js"></script>
-    <style type='text/css'>
-    #ex1Slider .slider-selection {
-        background: #BABABA;
-      }
-    </style>
-    <!-- END SLIDER STUFF -->
-
   </head>
   <body ng-app="mwl.calendar.docs" ng-controller="ExamplesCtrl as vm" ng-cloak>
 
@@ -45,45 +35,13 @@
       <div class="col-md-2"></div>
       <div class="row">
         <div class="col-md-8">
-
-          <!-- CALENDAR -->
           <div>
             <div id="demoContainer"></div>
-          </div>
-
-          <!-- SLIDER -->
-          <div class="well">
-            <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="4" data-slider-step="1" data-slider-value="3"/>
           </div>
         </div>
         <div class="col-md-2"></div>
       </div>
     </div>
-
-    <!-- SLIDER JS -->
-    <script type='text/javascript' src="misc/jquery.min.js"></script>
-    <script type='text/javascript' src="misc/bootstrap-slider.js"></script>
-    <script src="misc/angular.min.js"></script>
-    <script type='text/javascript'>
-    console.log("ONE!!!!!!!");
-    angular.module('mwl.calendar.docs', [])
-      .controller('ExamplesCtrl as vm', ['$scope', function($scope) {
-        console.log("SCOPE IS:  " + $scope.vm.event.startsAt);
-        console.log("TWOOOOO!!!!");
-      }]);
-    console.log("THREEE!!!!!!!");
-
-      $(document).ready(function() {
-        $('#ex1').slider({
-          formatter: function(value) {
-            return 'Tracking Priority: ' + value;
-          }
-        });
-        // JUST NEED TO FIGURE OUT HOW TO ACCESS VM and VM.EVENT HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        // MAP VM.EVENTS GET, IF VM.EVENTS.TrackingPriority < value THEN DELETE (SPLICE)
-      });
-    
-    </script>
   
     <script type="text/ng-template" id="modalContent.html">
       <div class="modal-header">
@@ -194,7 +152,7 @@ NEED TO FIND OUT HOW TO ACCESS VM.ACTION IN THE SCRIPT ^ ...????????????????????
 
     <script src="misc/moment.min.js"></script>
     <script src="misc/interact.min.js"></script>
-    <!-- <script src="misc/angular.min.js"></script> -->
+    <script src="misc/angular.min.js"></script>
     <script src="misc/angular-touch.min.js"></script>
     <script src="misc/angular-animate.min.js"></script>
     <script src="misc/ui-bootstrap-tpls.min.js"></script>
