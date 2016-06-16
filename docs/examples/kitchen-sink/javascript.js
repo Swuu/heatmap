@@ -17,39 +17,39 @@ angular
 
         arr.map(function (X) {
           // dump all apps with Tracking Priority < 2
-          if (X["Tracking Priority"] > 1) {
-            date = new Date (X["Store Date"]);
-            date.setDate(date.getDate() + 1);
-            type = 'inverse';
+          date = new Date (X["Store Date"]);
+          date.setDate(date.getDate() + 1);
+          type = 'inverse';
 
-            // color by tracking priority
-            switch (X["Tracking Priority"]) {
-              case 2: type = 'success';
-                break;
-              case 3: type = 'warning';
-                break;
-              case 4: type = 'important';
-                break;
-              default:
-            }
-
-            vm.events.push({
-              title: X["Content Title"],
-              startsAt: date,
-              AdamID: X["Adam ID"],
-              Artist: X["Artist"],
-              StoreType: X["Store Type"],
-              Genres: X["Genres"],
-              TrackingPriority: X["Tracking Priority"],
-              FeaturingPriority: X["Featuring Priority"],
-              Comments: X["Comments"],
-
-              type: type,
-              editable: true,
-              deletable: true,
-              draggable: true
-            });
+          // color by tracking priority
+          switch (X["Tracking Priority"]) {
+            case 1: type = 'info';
+            break;
+            case 2: type = 'success';
+              break;
+            case 3: type = 'warning';
+              break;
+            case 4: type = 'important';
+              break;
+            default:
           }
+
+          vm.events.push({
+            title: X["Content Title"],
+            startsAt: date,
+            AdamID: X["Adam ID"],
+            Artist: X["Artist"],
+            StoreType: X["Store Type"],
+            Genres: X["Genres"],
+            TrackingPriority: X["Tracking Priority"],
+            FeaturingPriority: X["Featuring Priority"],
+            Comments: X["Comments"],
+
+            type: type,
+            editable: true,
+            deletable: true,
+            draggable: true
+          });
         });
       });
     });
