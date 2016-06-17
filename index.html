@@ -1,189 +1,104 @@
-<!doctype html>
-<html class="no-js">
+<!DOCTYPE html>
+<html>
+
   <head>
-    <link rel="icon" type="image/png" href="./icon.png">
-    <meta charset="utf-8">
-    <title>THE HEAT</title>
-    <meta name="description" content="Angular bootstrap calendar demo">
-    <meta name="viewport" content="width=device-width">
-    <style type="text/css">
-      [ng-cloak] {
-        display: none;
-      }
-    </style>
-    
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-    <link href="misc/github.min.css" rel="stylesheet">
-    <link href="dist/css/angular-bootstrap-calendar.min.css" rel="stylesheet">
-=======
-    <link href="misc/github1.min.css" rel="stylesheet">
->>>>>>> master
-    <link href="docs/docs.css" rel="stylesheet">
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Dropdown-checkbox : " />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="javascripts/google-code-pretty/prettify.css">
+    <link rel="stylesheet/less" type="text/css" media="screen" href="stylesheets/main.less">
+    <script src="javascripts/less.min.js"></script>
+    <title>Bootstrap Dropdown-checkbox</title>
 
-    <!-- SLIDER STUFF -->
-    <link href="misc/bootstrap-slider.css" rel="stylesheet">
-    <script type='text/javascript' src="misc/jquery.min.js"></script>
-    <script type='text/javascript' src="misc/bootstrap-slider.js"></script>
-    <script src="misc/jquery-1.12.4.js"></script>
-    <style type='text/css'>
-    #ex1Slider .slider-selection {
-        background: #BABABA;
-      }
-    </style>
-    <!-- END SLIDER STUFF -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+      ga('create', 'UA-41660723-1', 'acquisio.github.io');
+      ga('send', 'pageview');
+
+    </script>
   </head>
-  <body ng-app="mwl.calendar.docs" ng-controller="ExamplesCtrl as vm" ng-cloak>
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"> THE HEAT : A Calendar View of App Store Releases</a>
-        </div>
-      </div>
-    </nav>
+  <body>
 
-    <div class="container-fluid content">
-      <div class="col-md-2"></div>
-      <div class="row">
-        <div class="col-md-8">
-          <div>
-            <div id="demoContainer"></div>
-          </div>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Nelrohd/bootstrap-dropdown-checkbox">View on GitHub</a>
+
+          <h1 id="project_title">Bootstrap Dropdown-checkbox</h1>
+          <div class="last-update">Last updated June 11, 2015, V0.1.3</div>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Nelrohd/bootstrap-dropdown-checkbox/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Nelrohd/bootstrap-dropdown-checkbox/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
     </div>
-  
-    <script type="text/ng-template" id="modalContent.html">
-      <div class="modal-header">
-        <h3 class="modal-title">{{ vm.event.title }}</h3>
-      </div>
-      <div class="modal-body">
 
-<!--
-        <p id="demo"></p>
-          <script type="text/javascript">
-            document.getElementById("demo").innerHTML = "SWAGGGG";
-          </script>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Browser Compatibility</h3>
+        <ul>
+          <li>IE 9+</li>
+          <li>Chrome 8+</li>
+          <li>Firefox 10+</li>
+        </ul>
+        <p class="note">Not tested on others browsers.</p>
+        <h3>Example</h3>
 
-
-
-NEED TO FIND OUT HOW TO ACCESS VM.ACTION IN THE SCRIPT ^ ...???????????????????????????????????
-DELETE: vm.events.splice($index, 1)
-ADD: 
-    <button
-      class="btn btn-primary pull-right"
-      ng-click="vm.events.push({title: 'New event', type: 'important', draggable: true, resizable: true})">
-      Add new
-    </button>
-
-EDIT: (in markup.html)
--->
-        <p>
-        <table>
-          <tr>
-            <td>Adam ID</td>
-            <td>{{ vm.event.AdamID }}</td>
-          </tr>
-          <tr>
-            <td>Artist</td>
-            <td>{{ vm.event.Artist }}</td>
-          </tr>
-          <tr>
-            <td>Release Date</td>
-            <td>{{ vm.event.startsAt }}</td>
-          </tr>
-          <tr>
-            <td>Store Type</td>
-            <td>{{ vm.event.StoreType }}</td>
-          </tr>
-          <tr>
-            <td>Genres</td>
-            <td>{{ vm.event.Genres }}</td>
-          </tr>
-          <tr>
-            <td>Tracking Priority</td>
-            <td>{{ vm.event.TrackingPriority }}</td>
-          </tr>
-          <tr>
-            <td>Featuring Priority &nbsp &nbsp</td>
-            <td>{{ vm.event.FeaturingPriority }}</td>
-          </tr>
-          <tr>
-            <td>Comments</td>
-            <td>{{ vm.event.Comments }}</td>
-          </tr>
-        </table>
-        </p>
-
-
-
-
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-primary" ng-click="$close()">OK</button>
-      </div>
-    </script>
-
-    <script type="text/ng-template" id="calendarControls.html">
-      <br>
-      <div class="row">
-
-        <div class="col-md-6 text-center">
-          <div class="btn-group">
-
-            <button
-              class="btn btn-primary"
-              mwl-date-modifier
-              date="vm.viewDate"
-              decrement="vm.calendarView"> 
-              Previous
-            </button>
-            <button
-              class="btn btn-default"
-              mwl-date-modifier
-              date="vm.viewDate"
-              set-to-today>
-              Today
-            </button>
-            <button
-              class="btn btn-primary"
-              mwl-date-modifier
-              date="vm.viewDate"
-              increment="vm.calendarView">
-              Next
-            </button>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
+              <li class="dropdown-checkbox-example dropdown-checkbox dropdown"></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
           </div>
-        </div>
-
-        <br class="visible-xs visible-sm">
-
-        <div class="col-md-6 text-center">
-          <div class="btn-group">
-            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'year'">Year</label>
-            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'month'">Month</label>
-            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Week</label>
-          </div>
-        </div>
-
-      </div>
-      <br>
-    </script>
-
-    <script src="misc/moment.min.js"></script>
-    <script src="misc/interact.min.js"></script>
-    <script src="misc/angular.min.js"></script>
-    <script src="misc/angular-touch.min.js"></script>
-    <script src="misc/angular-animate.min.js"></script>
-    <script src="misc/ui-bootstrap-tpls.min.js"></script>
-    <script src="misc/ocLazyLoad.min.js"></script>
-    <script src="misc/highlight.min.js"></script>
-    <script src="misc/angular-highlightjs.min.js"></script>
-    <script src="dist/js/angular-bootstrap-calendar-tpls.min.js"></script>
-    <script src="docs/docs.js"></script>
-    <script src="docs/examples/helpers.js"></script>
+        </nav>
+        <div class="dropdown-checkbox-example dropdown-checkbox dropdown"></div>
+        <div class="myDropdownCheckbox"></div>
+ 
   </body>
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/bootstrap-dropdown-checkbox.js"></script>
+  <script src="javascripts/google-code-pretty/prettify.js"></script>
+  <script src="javascripts/gatag.js"></script>
+  <script>prettyPrint();</script>
+  <script>
+    var data = [
+      { id: "1", label: "Forever.", isChecked: true },
+      { id: "2", label: "I love cheese.", isChecked: true },
+      { id: "3", label: "Meat for all", isChecked: false },
+      { id: "4", label: "Again and again", isChecked: true },
+      { id: "5", label: "Hey bro!", isChecked: true },
+      { id: "6", label: "It's working?", isChecked: false },
+      { id: "7", label: "Horse", isChecked: true },
+      { id: "8", label: "z-index", isChecked: true },
+      { id: "9", label: "language scala", isChecked: true },
+      { id: "10", label: "Yahoo", isChecked: true },
+      { id: "11", label: "yellow", isChecked: true },
+      { id: "12", label: "Gooooooooooogle", isChecked: true },
+      { id: "13", label: "NO WAY!", isChecked: false },
+      { id: "14", label: "2 times?", isChecked: true }
+    ];
+    $('.myDropdownCheckbox').dropdownCheckbox({
+      data: data,
+      autosearch: true,
+      title: "Dropdown Checkbox",
+      btnClass: "btn btn-primary",
+      hideHeader: false
+    });
+    $('.dropdown-checkbox-example').dropdownCheckbox({
+      data: data,
+      templateButton: '<a class="dropdown-checkbox-toggle" data-toggle="dropdown" href="#">Example Dropdown <span class="caret"></span></a>'
+    });
+  </script>
+
 </html>
