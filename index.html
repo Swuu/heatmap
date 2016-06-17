@@ -18,7 +18,7 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
 
-        <div class="myDropdownCheckbox"></div>
+        <div class="myDropdownCheckbox">&#9660</div>
       </section>
     </div>
 
@@ -46,11 +46,10 @@
       { id: "13", label: "NO WAY!", isChecked: false },
       { id: "14", label: "2 times?", isChecked: true }
     ];
-    var title = "Storefront" + \25bc;
     $('.myDropdownCheckbox').dropdownCheckbox({
       data: data,
       autosearch: true,
-      title: title,
+      title: "Storefront",
       btnClass: "btn btn-primary",
       hideHeader: false
     });
