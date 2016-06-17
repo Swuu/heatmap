@@ -66,6 +66,7 @@
     <!-- SLIDER -->
     <div class="well">
       <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="4" data-slider-step="1" data-slider-value="3"/>
+      <input id="ex2" data-slider-id='ex2Slider' type="text" data-slider-min="0" data-slider-max="4" data-slider-step="1" data-slider-value="3"/>
     </div>
   <br><br><br>
 
@@ -150,10 +151,17 @@
     $(document).ready(function() {
       $('#ex1').slider({
         formatter: function(value) {
-          // HOW TO ACCESS VM???????????????????????????????
           return 'Tracking Priority: ' + value;
         }
       });
+
+      $('#ex2').slider({
+        formatter: function(value) {
+          return 'Featuring Priority: ' + value;
+        }
+      });
+
+      // HOW TO ACCESS VM???????????????????????????????
       // MAP/ITERATE VM.EVENTS GET, IF VM.EVENTS.TrackingPriority < value THEN DELETE (SPLICE)
     });
   
