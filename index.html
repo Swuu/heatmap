@@ -14,7 +14,14 @@
 
   <body>
 
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
         <div class="myDropdownCheckbox"></div>
+      </section>
+    </div>
+
 
   </body>
   <script src="javascripts/jquery.min.js"></script>
@@ -42,7 +49,7 @@
     $('.myDropdownCheckbox').dropdownCheckbox({
       data: data,
       autosearch: true,
-      title: "Dropdown Checkbox" + &#9660,
+      title: "Dropdown Checkbox",
       btnClass: "btn btn-primary",
       hideHeader: false
     });
