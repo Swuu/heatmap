@@ -104,7 +104,8 @@
             <option value="important">(4) Editor's Choice</option>
             <option value="warning">(3) Really Good</option>
             <option value="success">(2) Decent</option>
-            <option value="inverse">(1) Crap</option>
+            <option value="info">(1) Ok</option>
+            <option value="inverse">(0) Crap</option>
           </select>
         </td>
         <td>
@@ -153,7 +154,7 @@
           return 'Tracking Priority: ' + value;
         }
       });
-      // MAP VM.EVENTS GET, IF VM.EVENTS.TrackingPriority < value THEN DELETE (SPLICE)
+      // MAP/ITERATE VM.EVENTS GET, IF VM.EVENTS.TrackingPriority < value THEN DELETE (SPLICE)
     });
   
   </script>
