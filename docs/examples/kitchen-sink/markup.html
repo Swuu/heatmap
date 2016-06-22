@@ -47,7 +47,7 @@
   <mwl-calendar
     events="vm.events"
     view="vm.calendarView"
-    view-title="THIS IS THE TITLE"
+    view-title="vm.calendarTitle"
     view-date="vm.viewDate"
     on-event-click="vm.eventClicked(calendarEvent)"
     on-event-times-changed="vm.eventTimesChanged(calendarEvent); calendarEvent.startsAt = calendarNewEventStart; calendarEvent.endsAt = calendarNewEventEnd"
