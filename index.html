@@ -14,7 +14,6 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="misc/github.min.css" rel="stylesheet">
     <link href="dist/css/angular-bootstrap-calendar.min.css" rel="stylesheet">
-    <link href="misc/github1.min.css" rel="stylesheet">
     <link href="docs/docs.css" rel="stylesheet">
 
     <!-- SLIDER STUFF -->
@@ -49,7 +48,7 @@
       <div class="col-md-2"></div>
       <div class="row">
         <div class="col-md-8">
-          <div>          
+          <div>
             <div id="demoContainer"></div>
           </div>
         </div>
@@ -62,26 +61,6 @@
         <h3 class="modal-title">{{ vm.event.title }}</h3>
       </div>
       <div class="modal-body">
-
-<!--
-        <p id="demo"></p>
-          <script type="text/javascript">
-            document.getElementById("demo").innerHTML = "SWAGGGG";
-          </script>
-
-
-
-NEED TO FIND OUT HOW TO ACCESS VM.ACTION IN THE SCRIPT ^ ...???????????????????????????????????
-DELETE: vm.events.splice($index, 1)
-ADD: 
-    <button
-      class="btn btn-primary pull-right"
-      ng-click="vm.events.push({title: 'New event', type: 'important', draggable: true, resizable: true})">
-      Add new
-    </button>
-
-EDIT: (in markup.html)
--->
         <p>
         <table>
           <tr>
@@ -120,57 +99,10 @@ EDIT: (in markup.html)
         </p>
 
 
-
-
       </div>
       <div class="modal-footer">
         <button class="btn btn-primary" ng-click="$close()">OK</button>
       </div>
-    </script>
-
-    <script type="text/ng-template" id="calendarControls.html">
-      <br>
-      <div class="row">
-
-        <div class="col-md-6 text-center">
-          <div class="btn-group">
-
-            <button
-              class="btn btn-primary"
-              mwl-date-modifier
-              date="vm.viewDate"
-              decrement="vm.calendarView"> 
-              Previous
-            </button>
-            <button
-              class="btn btn-default"
-              mwl-date-modifier
-              date="vm.viewDate"
-              set-to-today>
-              Today
-            </button>
-            <button
-              class="btn btn-primary"
-              mwl-date-modifier
-              date="vm.viewDate"
-              increment="vm.calendarView">
-              Next
-            </button>
-          </div>
-        </div>
-
-        <br class="visible-xs visible-sm">
-
-        <div class="col-md-6 text-center">
-          <div class="btn-group">
-            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'year'">Year</label>
-            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'month'">Month</label>
-            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Week</label>
-          </div>
-        </div>
-
-      </div>
-      <br>
     </script>
 
     <script src="misc/moment.min.js"></script>

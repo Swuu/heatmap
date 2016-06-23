@@ -8,15 +8,15 @@ angular
     vm.calendarView = 'month';
     vm.viewDate = new Date();
     vm.events = [];
+    var TP, FP;
 
-    //ADD EVENTS HERE
+    //INITIAL ADD OF EVENTS
     $(document).ready(function(){
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){
         var arr = JSON.parse(data);
         var date, type;
 
         arr.map(function (X) {
-          // dump all apps with Tracking Priority < 2
           date = new Date (X["Store Date"]);
           date.setDate(date.getDate() + 1);
           type = 'inverse';
@@ -56,6 +56,71 @@ angular
     
     vm.isCellOpen = false;
 
+    var update = function() {
+      var temp = [];
+
+      $.get("http://swuu.github.io/theheat/json.html", function(data, status){
+        var arr = JSON.parse(data);
+        var date, type;
+
+        arr.map(function (X) {
+          if (X["Tracking Priority"] >= TP &&
+              X["Featuring Priority"] >= FP) {
+            date = new Date (X["Store Date"]);
+            date.setDate(date.getDate() + 1);
+            type = 'inverse';
+
+            // color by tracking priority
+            switch (X["Tracking Priority"]) {
+              case 1: type = 'info';
+              break;
+              case 2: type = 'success';
+                break;
+              case 3: type = 'warning';
+                break;
+              case 4: type = 'important';
+                break;
+              default:
+            }
+
+            temp.push({
+              title: X["Content Title"],
+              startsAt: date,
+              AdamID: X["Adam ID"],
+              Artist: X["Artist"],
+              StoreType: X["Store Type"],
+              Genres: X["Genres"],
+              TrackingPriority: X["Tracking Priority"],
+              FeaturingPriority: X["Featuring Priority"],
+              Comments: X["Comments"],
+
+              type: type,
+              editable: true,
+              deletable: true,
+              draggable: true
+            });
+          }
+          vm.events=temp;
+        });
+      });
+    }
+
+    var TPslider = $('#ex1').slider({
+      formatter: function(value) {
+        TP = value;
+        return 'Tracking Priority: ' + value;
+      }
+    })
+    .on('change', update);
+
+    var FPslider = $('#ex2').slider({
+      formatter: function(value) {
+        FP = value;
+        return 'Featuring Priority: ' + value;
+      }
+    })
+    .on('change', update);
+
     vm.eventClicked = function(event) {
       alert.show('Clicked', event);
     };
@@ -68,9 +133,7 @@ angular
       alert.show('Deleted', event);
     };
 
-    vm.eventTimesChanged = function(event) {
-      alert.show('Dropped or resized', event);
-    };
+    vm.eventTimesChanged = function(event) {};
 
     vm.toggle = function($event, field, event) {
       $event.preventDefault();
