@@ -130,7 +130,8 @@ angular
     };
 
     vm.eventDeleted = function(event) {
-      alert.show('Deleted', event);
+      var i = vm.events.indexOf(event);
+      vm.events.splice(i, 1);
     };
 
     vm.eventTimesChanged = function(event) {};
