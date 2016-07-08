@@ -7,6 +7,7 @@ angular
     main.calendarDate = new Date();
     main.events = [];
     main.tentative = [];
+    var month = main.calendarDate.getMonth();
 
     $(document).ready(function(){
       $('#multselect').multiselect({
@@ -17,12 +18,38 @@ angular
             enableClickableOptGroups: true
         });
 
+      $('#platform').multiselect({
+            enableClickableOptGroups: true
+        });
+
+      $('#previous').click(function() {
+        month--;
+        update();
+      });
+
+      $('#today').click(function() {
+        month = main.calendarDate.getMonth();
+        update();
+      });
+
+      $('#next').click(function() {
+        month++;
+        update();
+      });    
+
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){
         var arr = JSON.parse(data);
-        var date, type;
+        var date, type, m;
 
         arr.map(function (X) {
-          if (X["isTentative"] == true) {
+          var m;
+          var type = 'inverse';
+          var date = new Date (X["Store Date"]);
+          
+          date.setDate(date.getDate() + 1);
+          m = date.getMonth();
+
+          if (X["isTentative"] == true && m == month) {
             main.tentative.push ({
               title: X["Content Title"],
               startsAt: date,
@@ -42,10 +69,6 @@ angular
           }
 
           else {
-            date = new Date (X["Store Date"]);
-            date.setDate(date.getDate() + 1);
-            type = 'inverse';
-
             // color by tracking priority
             switch (X["Tracking Priority"]) {
               case 1: type = 'info';
@@ -81,51 +104,78 @@ angular
     });
 
     var update = function() {
-      var temp = [];
+      var tentative = [];
+      var events = [];
 
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){
         var arr = JSON.parse(data);
-        var date, type;
+        var date, type, m;
 
         arr.map(function (X) {
-          if (X["Tracking Priority"] >= TP &&
-              X["Featuring Priority"] >= FP) {  
+          if (X["Tracking Priority"] >= TP && X["Featuring Priority"] >= FP) {
+
             date = new Date (X["Store Date"]);
             date.setDate(date.getDate() + 1);
             type = 'inverse';
+            m = date.getMonth();
 
-            // color by tracking priority
-            switch (X["Tracking Priority"]) {
-              case 1: type = 'info';
-              break;
-              case 2: type = 'success';
-                break;
-              case 3: type = 'warning';
-                break;
-              case 4: type = 'important';
-                break;
-              default:
+            if (X["isTentative"] == true) {
+              if (m == month) {
+                tentative.push ({
+                  title: X["Content Title"],
+                  startsAt: date,
+                  AdamID: X["Adam ID"],
+                  Artist: X["Artist"],
+                  StoreType: X["Store Type"],
+                  Genres: X["Genres"],
+                  TrackingPriority: X["Tracking Priority"],
+                  FeaturingPriority: X["Featuring Priority"],
+                  Comments: X["Comments"],
+
+                  type: type,
+                  editable: true,
+                  deletable: true,
+                  draggable: true
+                });
+              }
             }
 
-            temp.push({
-              title: X["Content Title"],
-              startsAt: date,
-              AdamID: X["Adam ID"],
-              Artist: X["Artist"],
-              StoreType: X["Store Type"],
-              Genres: X["Genres"],
-              TrackingPriority: X["Tracking Priority"],
-              FeaturingPriority: X["Featuring Priority"],
-              Comments: X["Comments"],
+            else {
+              // color by tracking priority
+              switch (X["Tracking Priority"]) {
+                case 1: type = 'info';
+                break;
+                case 2: type = 'success';
+                  break;
+                case 3: type = 'warning';
+                  break;
+                case 4: type = 'important';
+                  break;
+                default:
+              }
 
-              type: type,
-              editable: true,
-              deletable: true,
-              draggable: true
-            });
+              events.push ({
+                title: X["Content Title"],
+                startsAt: date,
+                AdamID: X["Adam ID"],
+                Artist: X["Artist"],
+                StoreType: X["Store Type"],
+                Genres: X["Genres"],
+                TrackingPriority: X["Tracking Priority"],
+                FeaturingPriority: X["Featuring Priority"],
+                Comments: X["Comments"],
+
+                type: type,
+                editable: true,
+                deletable: true,
+                draggable: true
+              });
+            }
           }
-          main.events=temp;
         });
+
+        main.tentative = tentative;
+        main.events = events;
       });
     }
 
