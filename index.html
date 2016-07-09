@@ -91,56 +91,6 @@
 
   <br>
       <div class="well">
-      <select id="genre" multiple="multiple">
-          <optgroup label="Games">
-              <option value="2-1" selected="selected">Action</option>
-              <option value="2-2" selected="selected">Adventure</option>
-              <option value="2-3" selected="selected">Sports</option>
-              <option value="2-4" selected="selected">Strategy</option>
-              <option value="2-5" selected="selected">Racing</option>
-          </optgroup>
-          <optgroup label="Apps">
-              <option value="1-1">Entertainment</option>
-              <option value="1-2">Shopping</option>
-              <option value="1-3">Health</option>
-          </optgroup>
-      </select>
-
-      <select id="storefront" multiple="multiple">
-          <optgroup label="Americas">
-              <option value="1-1" selected="selected">USA</option>
-              <option value="1-2">Canada</option>
-              <option value="1-3">Mexico</option>
-              <option value="1-4">Brazil</option>
-              <option value="1-5">Argentina</option>
-          </optgroup>
-          <optgroup label="Asia">
-              <option value="2-1">China</option>
-              <option value="2-2">Japan</option>
-              <option value="2-3">Korea</option>
-          </optgroup>
-          <optgroup label="Europe">
-              <option value="3-1">France</option>
-              <option value="3-2">UK</option>
-              <option value="3-3">Germany</option>
-          </optgroup>
-
-      </select>
-      
-      <select id="newupdate" multiple="multiple">
-          <option value="1-1" selected="selected">New</option>
-          <option value="1-2">Updates</option>
-      </select>
-
-      <select id="platform" multiple="multiple">
-          <option value="1-1" selected="selected">iPhone</option>
-          <option value="1-2">iPad</option>
-          <option value="1-3">Apple TV</option>
-          <option value="1-4">Mac</option>
-          <option value="1-5">Watch</option>
-      </select>
-
-      <br><br>
       <div>
         <div style="float: left;">
           Tracking Priority<br>
@@ -153,23 +103,97 @@
           <input id="ex2" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
         </div>
       </div>
-      <br><br>
+      <br><br><br>
+
+      <select id="genre" multiple="multiple">
+          <optgroup label="Games">
+              <option value="1-1" selected="selected">Action</option>
+              <option value="1-2" selected="selected">Adventure</option>
+              <option value="1-3" selected="selected">Arcade</option>
+              <option value="1-4" selected="selected">Card</option>
+              <option value="1-5" selected="selected">Family</option>
+              <option value="1-6" selected="selected">Music</option>
+              <option value="1-7" selected="selected">Puzzle</option>
+              <option value="1-8" selected="selected">Racing</option>
+              <option value="1-9" selected="selected">Role Playing</option>
+              <option value="1-10" selected="selected">Simulation</option>
+              <option value="1-11" selected="selected">Sports</option>
+              <option value="1-12" selected="selected">Strategy</option>
+              <option value="1-13" selected="selected">Trivia</option>
+              <option value="1-14" selected="selected">Word</option>
+          </optgroup>
+          <optgroup label="Apps">
+              <option value="2-1">Travel</option>
+              <option value="2-2">Education</option>
+              <option value="2-3">Lifestyle</option>
+              <option value="2-4">Utilities</option>
+              <option value="2-5">Photo & Video</option>
+              <option value="2-6">Shopping</option>
+              <option value="2-7">Productivity</option>
+              <option value="2-8">News</option>
+              <option value="2-9">Sports</option>
+              <option value="2-10">Health & Fitness</option>
+              <option value="2-11">Entertainment</option>
+              <option value="2-12">Book</option>
+              <option value="2-13">Social Networking</option>
+              <option value="2-14">Weather</option>
+              <option value="2-15">Music</option>
+              <option value="2-16">Navigation</option>
+              <option value="2-17">Food & Drink</option>
+              <option value="2-18">Medical</option>
+          </optgroup>
+      </select>
+
+      <select id="storefront" multiple="multiple">
+          <optgroup label="Americas">
+              <option value="3-1" selected="selected">USA</option>
+              <option value="3-2">Canada</option>
+              <option value="3-3">Mexico</option>
+              <option value="3-4">Brazil</option>
+              <option value="3-5">Argentina</option>
+          </optgroup>
+          <optgroup label="Asia">
+              <option value="4-1">China</option>
+              <option value="4-2">Japan</option>
+              <option value="4-3">Korea</option>
+          </optgroup>
+          <optgroup label="Europe">
+              <option value="5-1">France</option>
+              <option value="5-2">UK</option>
+              <option value="5-3">Germany</option>
+          </optgroup>
+
+      </select>
+      
+      <select id="newupdate" multiple="multiple">
+          <option value="6-1" selected="selected">New</option>
+          <option value="6-2">Updates</option>
+      </select>
+
+      <select id="platform" multiple="multiple">
+          <option value="7-1" selected="selected">iPhone</option>
+          <option value="7-2">tvOS</option>
+          <option value="7-3">iPad</option>
+          <option value="7-4">Mac</option>
+          <option value="7-5">watchOS</option>
+      </select>
     </div>
-          <div>
-            <mwl-calendar
-                view="main.calendarView"
-                view-date="main.calendarDate"
-                events="main.events"
-                view-title="calendarTitle"
-                on-event-click="main.eventClicked(calendarEvent)"
-                on-event-times-changed="calendarEvent.startsAt = calendarNewEventStart; calendarEvent.endsAt = calendarNewEventEnd"
-                edit-event-html="'<i class=\'glyphicon glyphicon-pencil\'></i>'"
-                delete-event-html="'<i class=\'glyphicon glyphicon-remove\'></i>'"
-                on-edit-event-click="main.eventEdited(calendarEvent)"
-                on-delete-event-click="main.eventDeleted(calendarEvent)"
-                cell-is-open="false">
-            </mwl-calendar>
-          </div>
+
+    <div>
+      <mwl-calendar
+          view="main.calendarView"
+          view-date="main.calendarDate"
+          events="main.events"
+          view-title="calendarTitle"
+          on-event-click="main.eventClicked(calendarEvent)"
+          on-event-times-changed="calendarEvent.startsAt = calendarNewEventStart; calendarEvent.endsAt = calendarNewEventEnd"
+          edit-event-html="'<i class=\'glyphicon glyphicon-pencil\'></i>'"
+          delete-event-html="'<i class=\'glyphicon glyphicon-remove\'></i>'"
+          on-edit-event-click="main.eventEdited(calendarEvent)"
+          on-delete-event-click="main.eventDeleted(calendarEvent)"
+          cell-is-open="false">
+      </mwl-calendar>
+    </div>
 
 
 
@@ -184,6 +208,9 @@
                   ng-click="main.eventClicked(event)">
                   {{event.title}}
                 </button>
+            </td>
+            <td>
+              {{ event.startsAt }}
             </td>
           </tr>
       </table>

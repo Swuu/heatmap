@@ -9,19 +9,20 @@ angular
 
     var TP, FP;
     var month = main.calendarDate.getMonth();
-    var games = "Action, Adventure, Sports, Strategy, Racing";
-    var apps = "Entertainment, Shopping, Health";
+    var games = "Action, Adventure, Arcade, Card, Family, Music, Puzzle, Racing, Role Playing, Simulation, Sports, Strategy, Trivia, Word";
+    var apps = "Travel, Education, Lifestyle, Utilities, Photo &amp; Video, Shopping, Productivity, News, Sports, Health &amp; Fitness, Entertainment, Book, Social Networking, Weather, Music, Navigation, Food &amp; Drink, Medical";
     var all = games + ", " + apps
-
-
 
     $(document).ready(function(){
 
       // GENRE MULTISELECT
       $('#genre').multiselect({
           enableClickableOptGroups: true,
+          enableCollapsibleOptGroups: true,
           enableFiltering: true,
           includeSelectAllOption: true,
+          enableCaseInsensitiveFiltering: true,
+          maxHeight: 600,
 
           buttonText: function(options, select) {
               if (options.length === 0) {
@@ -34,13 +35,12 @@ angular
                 });
                   
                 labels = labels.join(', ');
-                 
                 if (labels == games)
                   return 'Games';
                 else if (labels == apps)
                   return 'Apps';
                 else if (labels == all)
-                  return 'All';
+                  return 'All Games and Apps';
                 else if (options.length > 4)
                   return options.length + " items selected";
                 else
@@ -53,17 +53,23 @@ angular
       $('#storefront').multiselect({
           enableFiltering: true,
           includeSelectAllOption: true,
-          enableClickableOptGroups: true
+          enableClickableOptGroups: true,
+          enableCaseInsensitiveFiltering: true
+          // DO THE SAME AS IN GENRE MUTISELECT
         });
       
       // NEWUPDATE MULTISELECT
       $('#newupdate').multiselect({
-            enableClickableOptGroups: true
+          includeSelectAllOption: true,
+          enableClickableOptGroups: true,
+            // DO THE SAME AS IN GENRE MUTISELECT
         });
 
       // PLATFORM MULTISELECT
       $('#platform').multiselect({
-            enableClickableOptGroups: true
+          includeSelectAllOption: true,
+          enableClickableOptGroups: true,
+            // DO THE SAME AS IN GENRE MUTISELECT
         });
 
       // PREVIOUS BUTTON
