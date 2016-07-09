@@ -2,41 +2,89 @@ angular
   .module('heatmap', ['mwl.calendar', 'ui.bootstrap', 'ngTouch', 'ngAnimate', 'oc.lazyLoad', 'hljs'])
   .controller('heatmapCtrl', function(alert) {
   	var main = this;
-    var TP, FP;
     main.calendarView = "month";
     main.calendarDate = new Date();
     main.events = [];
     main.tentative = [];
+
+    var TP, FP;
     var month = main.calendarDate.getMonth();
+    var games = "Action, Adventure, Sports, Strategy, Racing";
+    var apps = "Entertainment, Shopping, Health";
+    var all = games + ", " + apps
+
+
 
     $(document).ready(function(){
-      $('#multselect').multiselect({
-            enableClickableOptGroups: true
+
+      // GENRE MULTISELECT
+      $('#genre').multiselect({
+          enableClickableOptGroups: true,
+          enableFiltering: true,
+          includeSelectAllOption: true,
+
+          buttonText: function(options, select) {
+              if (options.length === 0) {
+                  return 'None';
+              }
+              else {
+                var labels = [];
+                options.map(function() {
+                  labels.push($(this).html());
+                });
+                  
+                labels = labels.join(', ');
+                 
+                if (labels == games)
+                  return 'Games';
+                else if (labels == apps)
+                  return 'Apps';
+                else if (labels == all)
+                  return 'All';
+                else if (options.length > 4)
+                  return options.length + " items selected";
+                else
+                   return labels;
+               }
+          }
+      });
+
+      // STOREFRONT MULTISELECT
+      $('#storefront').multiselect({
+          enableFiltering: true,
+          includeSelectAllOption: true,
+          enableClickableOptGroups: true
         });
       
+      // NEWUPDATE MULTISELECT
       $('#newupdate').multiselect({
             enableClickableOptGroups: true
         });
 
+      // PLATFORM MULTISELECT
       $('#platform').multiselect({
             enableClickableOptGroups: true
         });
 
+      // PREVIOUS BUTTON
       $('#previous').click(function() {
         month--;
         update();
       });
 
+      // TODAY BUTTON
       $('#today').click(function() {
         month = main.calendarDate.getMonth();
         update();
       });
 
+      // NEXT BUTTON
       $('#next').click(function() {
         month++;
         update();
       });    
 
+      // INITIALIZE CALENDAR
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){
         var arr = JSON.parse(data);
         var date, type, m;
@@ -103,6 +151,7 @@ angular
       });
     });
 
+    // UDATE CALENDAR, CALLED BY PREVIOUS, TODAY, NEXT, TPslider, and FPslider
     var update = function() {
       var tentative = [];
       var events = [];
@@ -179,6 +228,7 @@ angular
       });
     }
 
+    // TRACKING PRIORITY SLIDER
     var TPslider = $('#ex1').slider({
       formatter: function(value) {
         TP = value;
@@ -187,6 +237,7 @@ angular
     })
     .on('change', update);
 
+    // FEATURING PRIORITY SLIDER
     var FPslider = $('#ex2').slider({
       formatter: function(value) {
         FP = value;
