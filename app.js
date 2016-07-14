@@ -87,11 +87,10 @@ angular
       // INITIALIZE CALENDAR
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){
         var arr = JSON.parse(data);
-        var date, type, m, title, i;
+        var date, m, title, i;
 
         arr.map(function (X) {
           var m;
-          var type = 'inverse';
           var date = new Date (X["Store Date"]);
           
           date.setDate(date.getDate() + 1);
@@ -114,7 +113,6 @@ angular
               FeaturingPriority: X["Featuring Priority"],
               Comments: X["Comments"],
 
-              type: type,
               editable: true,
               deletable: true,
               draggable: true
@@ -122,19 +120,6 @@ angular
           }
 
           else {
-            // color by tracking priority
-            switch (X["Tracking Priority"]) {
-              case 1: type = 'info';
-              break;
-              case 2: type = 'success';
-                break;
-              case 3: type = 'warning';
-                break;
-              case 4: type = 'important';
-                break;
-              default:
-            }
-
             main.events.push ({
               title: title,
               startsAt: date,
@@ -146,7 +131,6 @@ angular
               FeaturingPriority: X["Featuring Priority"],
               Comments: X["Comments"],
 
-              type: type,
               editable: true,
               deletable: true,
               draggable: true
@@ -163,14 +147,13 @@ angular
 
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){
         var arr = JSON.parse(data);
-        var date, type, m;
+        var date, m;
 
         arr.map(function (X) {
           if (X["Tracking Priority"] >= TP && X["Featuring Priority"] >= FP) {
 
             date = new Date (X["Store Date"]);
             date.setDate(date.getDate() + 1);
-            type = 'inverse';
             m = date.getMonth();
 
             if (X["isTentative"] == true) {
@@ -186,7 +169,6 @@ angular
                   FeaturingPriority: X["Featuring Priority"],
                   Comments: X["Comments"],
 
-                  type: type,
                   editable: true,
                   deletable: true,
                   draggable: true
@@ -195,19 +177,6 @@ angular
             }
 
             else {
-              // color by tracking priority
-              switch (X["Tracking Priority"]) {
-                case 1: type = 'info';
-                break;
-                case 2: type = 'success';
-                  break;
-                case 3: type = 'warning';
-                  break;
-                case 4: type = 'important';
-                  break;
-                default:
-              }
-
               events.push ({
                 title: X["Content Title"],
                 startsAt: date,
@@ -219,7 +188,6 @@ angular
                 FeaturingPriority: X["Featuring Priority"],
                 Comments: X["Comments"],
 
-                type: type,
                 editable: true,
                 deletable: true,
                 draggable: true

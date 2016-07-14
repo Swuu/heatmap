@@ -1862,9 +1862,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    function getBadgeTotal(events, TP) {
 	      return events.filter(function(event) {
-	      	console.log("TP IS:  " + TP);
-			console.log("FP IS:  " + event.TrackingPriority);
-	      	console.log("COMPARE IS :  " + (event.TrackingPriority == TP));
 	        return (event.TrackingPriority == TP);
 	      }).length;
 	    }
