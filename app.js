@@ -9,11 +9,34 @@ angular
 
     var TP, FP;
     var month = main.calendarDate.getMonth();
-    var games = "Action, Adventure, Arcade, Card, Family, Music, Puzzle, Racing, Role Playing, Simulation, Sports, Strategy, Trivia, Word";
-    var apps = "Travel, Education, Lifestyle, Utilities, Photo &amp; Video, Shopping, Productivity, News, Sports, Health &amp; Fitness, Entertainment, Book, Social Networking, Weather, Music, Navigation, Food &amp; Drink, Medical";
-    var all = games + ", " + apps
+    
+    var months = new Array(12);
+    months[0] = "January";
+    months[1] = "February";
+    months[2] = "March";
+    months[3] = "April";
+    months[4] = "May";
+    months[5] = "June";
+    months[6] = "July";
+    months[7] = "August";
+    months[8] = "September";
+    months[9] = "October";
+    months[10] = "November";
+    months[11] = "December";
 
     $(document).ready(function(){
+
+      // STOREFRONT MULTISELECT
+      $('#storefront').multiselect({
+          enableFiltering: true,
+          includeSelectAllOption: true,
+          enableClickableOptGroups: true,
+          enableCaseInsensitiveFiltering: true,
+
+          buttonText: function(options, select) {
+            return 'Storefront';
+          }
+        });
 
       // GENRE MULTISELECT
       $('#genre').multiselect({
@@ -25,51 +48,28 @@ angular
           maxHeight: 600,
 
           buttonText: function(options, select) {
-              if (options.length === 0) {
-                  return 'None';
-              }
-              else {
-                var labels = [];
-                options.map(function() {
-                  labels.push($(this).html());
-                });
-                  
-                labels = labels.join(', ');
-                if (labels == games)
-                  return 'Games';
-                else if (labels == apps)
-                  return 'Apps';
-                else if (labels == all)
-                  return 'All Games and Apps';
-                else if (options.length > 4)
-                  return options.length + " items selected";
-                else
-                   return labels;
-               }
+            return 'Category';
           }
       });
-
-      // STOREFRONT MULTISELECT
-      $('#storefront').multiselect({
-          enableFiltering: true,
-          includeSelectAllOption: true,
-          enableClickableOptGroups: true,
-          enableCaseInsensitiveFiltering: true
-          // DO THE SAME AS IN GENRE MUTISELECT
-        });
-      
-      // NEWUPDATE MULTISELECT
-      $('#newupdate').multiselect({
-          includeSelectAllOption: true,
-          enableClickableOptGroups: true,
-            // DO THE SAME AS IN GENRE MUTISELECT
-        });
 
       // PLATFORM MULTISELECT
       $('#platform').multiselect({
           includeSelectAllOption: true,
           enableClickableOptGroups: true,
-            // DO THE SAME AS IN GENRE MUTISELECT
+
+          buttonText: function(options, select) {
+            return 'Platform';
+          }
+        });
+
+      // NEWUPDATE MULTISELECT
+      $('#newupdate').multiselect({
+          includeSelectAllOption: true,
+          enableClickableOptGroups: true,
+
+          buttonText: function(options, select) {
+            return 'New/Update';
+          }
         });
 
       // PREVIOUS BUTTON
@@ -78,22 +78,16 @@ angular
         update();
       });
 
-      // TODAY BUTTON
-      $('#today').click(function() {
-        month = main.calendarDate.getMonth();
-        update();
-      });
-
       // NEXT BUTTON
       $('#next').click(function() {
         month++;
         update();
-      });    
+      });
 
       // INITIALIZE CALENDAR
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){
         var arr = JSON.parse(data);
-        var date, type, m;
+        var date, type, m, title, i;
 
         arr.map(function (X) {
           var m;
@@ -103,13 +97,18 @@ angular
           date.setDate(date.getDate() + 1);
           m = date.getMonth();
 
+          // REMOVE [iOS 1.2.3 ... ]
+          title = X["Content Title"];
+          i = title.indexOf("[");
+          title = title.substring(0,i-1);
+
           if (X["isTentative"] == true && m == month) {
             main.tentative.push ({
-              title: X["Content Title"],
+              title: title,
               startsAt: date,
               AdamID: X["Adam ID"],
               Artist: X["Artist"],
-              StoreType: X["Store Type"],
+              Platform: X["Platform"],
               Genres: X["Genres"],
               TrackingPriority: X["Tracking Priority"],
               FeaturingPriority: X["Featuring Priority"],
@@ -137,11 +136,11 @@ angular
             }
 
             main.events.push ({
-              title: X["Content Title"],
+              title: title,
               startsAt: date,
               AdamID: X["Adam ID"],
               Artist: X["Artist"],
-              StoreType: X["Store Type"],
+              Platform: X["Platform"],
               Genres: X["Genres"],
               TrackingPriority: X["Tracking Priority"],
               FeaturingPriority: X["Featuring Priority"],
@@ -181,7 +180,7 @@ angular
                   startsAt: date,
                   AdamID: X["Adam ID"],
                   Artist: X["Artist"],
-                  StoreType: X["Store Type"],
+                  Platform: X["Platform"],
                   Genres: X["Genres"],
                   TrackingPriority: X["Tracking Priority"],
                   FeaturingPriority: X["Featuring Priority"],
@@ -214,7 +213,7 @@ angular
                 startsAt: date,
                 AdamID: X["Adam ID"],
                 Artist: X["Artist"],
-                StoreType: X["Store Type"],
+                Platform: X["Platform"],
                 Genres: X["Genres"],
                 TrackingPriority: X["Tracking Priority"],
                 FeaturingPriority: X["Featuring Priority"],
