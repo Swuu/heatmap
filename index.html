@@ -165,7 +165,7 @@
                 </button>
             </td>
             <td>
-              {{ event.startsAt.toString() }}
+              {{ event.startsAt.toDateString() }}
             </td>
           </tr>
       </table>
@@ -193,7 +193,7 @@
           </tr>
           <tr>
             <td>Release Date</td>
-            <td>{{ main.event.startsAt }}</td>
+            <td>{{ main.event.startsAt.toDateString() }}</td>
           </tr>
           <tr>
             <td>Platform</td>
