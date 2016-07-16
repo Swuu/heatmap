@@ -14,11 +14,6 @@
     <!-- SLIDER STUFF -->
     <link href="bower_components/misc/bootstrap-slider.css" rel="stylesheet">
     
-    <style type='text/css'>
-    #ex1Slider .slider-selection {
-        background: #BABABA;
-      }
-    </style>
     <script type='text/javascript' src="bower_components/misc/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- END SLIDER STUFF -->
@@ -45,25 +40,25 @@
         <div class="col-md-8">
           <div class="text-center">
               <button
-                class="btn btn-primary"
+                class="btn btn-default"
                 id="previous"
                 mwl-date-modifier
                 date="main.calendarDate"
                 decrement="main.calendarView"
                 style="display: inline-flex">
-                Previous Month
+                <
               </button>
               &nbsp &nbsp
               <h2 id="title1">{{ calendarTitle }}</h2>
               &nbsp &nbsp
               <button
-                class="btn btn-primary"
+                class="btn btn-default"
                 id="next"
                 mwl-date-modifier
                 date="main.calendarDate"
                 increment="main.calendarView"
                 style="display: inline-flex">
-                Next Month
+                >
               </button>
             
             <br><br><br>
@@ -165,7 +160,7 @@
                 </button>
             </td>
             <td>
-              {{ event.startsAt.toDateString() }}
+              {{ event.startsAt }}
             </td>
           </tr>
       </table>
@@ -243,7 +238,7 @@
 <!--
 
 TO DO:
-FP/TP Numbers in bubble
+next prev month and filters content sensitive
 
 DATA OF MOBILE SOFTWARE APPLICATIONS:
 http://vp21q01if-smds02041001.vp.if1.apple.com:8989/solr/hitlistentry_shard1_replica1/select?q=appPlatforms:*&wt=json&indent=true
