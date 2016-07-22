@@ -73,17 +73,7 @@ angular
           }
         });
 
-      // PREVIOUS BUTTON
-      $('#previous').click(function() {
-        month--;
-        update();
-      });
 
-      // NEXT BUTTON
-      $('#next').click(function() {
-        month++;
-        update();
-      });
 
       // INITIALIZE CALENDAR
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){
@@ -187,7 +177,6 @@ angular
 
           if (tentative) {
             if (m == month) {
-              console.log(X["Store Date"]);
               tentativedates.push ({
                 title: title,
                 startsAt: X["Store Date"],
@@ -233,24 +222,6 @@ angular
       main.events = events;
     }
 
-    // TRACKING PRIORITY SLIDER
-    var TPslider = $('#ex1').slider({
-      formatter: function(value) {
-        TP = value;
-        return value;
-      }
-    })
-    .on('change', update);
-
-    // FEATURING PRIORITY SLIDER
-    var FPslider = $('#ex2').slider({
-      formatter: function(value) {
-        FP = value;
-        return value;
-      }
-    })
-    .on('change', update);
-
 
     main.eventClicked = function(event) {
       alert.show('Clicked', event);
@@ -273,7 +244,6 @@ angular
       $event.stopPropagation();
       event[field] = !event[field];
     };
-
   })
 
   .factory('alert', function($uibModal) {

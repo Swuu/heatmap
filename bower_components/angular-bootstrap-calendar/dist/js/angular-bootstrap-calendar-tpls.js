@@ -170,7 +170,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 14 */
 /***/ function(module, exports) {
 
-	module.exports = "<div\n  class=\"cal-context\"\n  ng-switch=\"vm.view\"\n  ng-if=\"vm.templatesLoaded\">\n\n  <div class=\"alert alert-danger\" ng-switch-default>The value passed to the view attribute of the calendar is not set</div>\n\n  <div class=\"alert alert-danger\" ng-hide=\"vm.viewDate\">The value passed to view-date attribute of the calendar is not set</div>\n\n  <mwl-calendar-year\n    events=\"vm.events\"\n    view-date=\"vm.viewDate\"\n    on-event-click=\"vm.onEventClick\"\n    on-event-times-changed=\"vm.onEventTimesChanged\"\n    on-edit-event-click=\"vm.onEditEventClick\"\n    on-delete-event-click=\"vm.onDeleteEventClick\"\n    on-timespan-click=\"vm.onTimespanClick\"\n    edit-event-html=\"vm.editEventHtml\"\n    delete-event-html=\"vm.deleteEventHtml\"\n    cell-is-open=\"vm.cellIsOpen\"\n    cell-modifier=\"vm.cellModifier\"\n    slide-box-disabled=\"vm.slideBoxDisabled\"\n    ng-switch-when=\"year\">\n  </mwl-calendar-year>\n\n  <mwl-calendar-month\n    events=\"vm.events\"\n    view-date=\"vm.viewDate\"\n    on-event-click=\"vm.onEventClick\"\n    on-event-times-changed=\"vm.onEventTimesChanged\"\n    on-edit-event-click=\"vm.onEditEventClick\"\n    on-delete-event-click=\"vm.onDeleteEventClick\"\n    on-timespan-click=\"vm.onTimespanClick\"\n    edit-event-html=\"vm.editEventHtml\"\n    delete-event-html=\"vm.deleteEventHtml\"\n    cell-is-open=\"vm.cellIsOpen\"\n    cell-modifier=\"vm.cellModifier\"\n    slide-box-disabled=\"vm.slideBoxDisabled\"\n    ng-switch-when=\"month\">\n  </mwl-calendar-month>\n\n  <mwl-calendar-week\n    events=\"vm.events\"\n    view-date=\"vm.viewDate\"\n    on-event-click=\"vm.onEventClick\"\n    on-event-times-changed=\"vm.onEventTimesChanged\"\n    day-view-start=\"vm.dayViewStart\"\n    day-view-end=\"vm.dayViewEnd\"\n    day-view-split=\"vm.dayViewSplit\"\n    day-view-event-chunk-size=\"vm.dayViewEventChunkSize\"\n    on-timespan-click=\"vm.onTimespanClick\"\n    ng-switch-when=\"week\">\n  </mwl-calendar-week>\n\n  <mwl-calendar-day\n    events=\"vm.events\"\n    view-date=\"vm.viewDate\"\n    on-event-click=\"vm.onEventClick\"\n    on-event-times-changed=\"vm.onEventTimesChanged\"\n    on-timespan-click=\"vm.onTimespanClick\"\n    on-date-range-select=\"vm.onDateRangeSelect\"\n    day-view-start=\"vm.dayViewStart\"\n    day-view-end=\"vm.dayViewEnd\"\n    day-view-split=\"vm.dayViewSplit\"\n    day-view-event-chunk-size=\"vm.dayViewEventChunkSize\"\n    ng-switch-when=\"day\">\n  </mwl-calendar-day>\n</div>\n";
+	module.exports = "<div\n  class=\"cal-context\"\n  ng-switch=\"vm.view\"\n  ng-if=\"vm.templatesLoaded\">\n\n  <div class=\"alert alert-danger\" ng-switch-default>The value passed to the view attribute of the calendar is not set</div>\n\n  <div class=\"alert alert-danger\" ng-hide=\"vm.viewDate\">The value passed to view-date attribute of the calendar is not set</div>\n\n  <mwl-calendar-month\n    events=\"vm.events\"\n    view-date=\"vm.viewDate\"\n    on-event-click=\"vm.onEventClick\"\n    on-event-times-changed=\"vm.onEventTimesChanged\"\n    on-edit-event-click=\"vm.onEditEventClick\"\n    on-delete-event-click=\"vm.onDeleteEventClick\"\n    on-timespan-click=\"vm.onTimespanClick\"\n    edit-event-html=\"vm.editEventHtml\"\n    delete-event-html=\"vm.deleteEventHtml\"\n    cell-is-open=\"vm.cellIsOpen\"\n    cell-modifier=\"vm.cellModifier\"\n    slide-box-disabled=\"vm.slideBoxDisabled\"\n    ng-switch-when=\"month\">\n  </mwl-calendar-month>\n\n  <mwl-calendar-week\n    events=\"vm.events\"\n    view-date=\"vm.viewDate\"\n    on-event-click=\"vm.onEventClick\"\n    on-event-times-changed=\"vm.onEventTimesChanged\"\n    day-view-start=\"vm.dayViewStart\"\n    day-view-end=\"vm.dayViewEnd\"\n    day-view-split=\"vm.dayViewSplit\"\n    day-view-event-chunk-size=\"vm.dayViewEventChunkSize\"\n    on-timespan-click=\"vm.onTimespanClick\"\n    ng-switch-when=\"week\">\n  </mwl-calendar-week>\n\n  </div>\n";
 
 /***/ },
 /* 15 */
@@ -314,6 +314,135 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      return true;
 	    }
+
+	    var TP, FP;
+	    var month = (new Date()).getMonth();
+	    // UDATE CALENDAR, CALLED BY PREVIOUS, TODAY, NEXT, TPslider, and FPslider
+	    var update = function() {
+	      $.get("http://swuu.github.io/theheat/json.html", function(data, status){
+	          var arr = JSON.parse(data);
+		      var tentativedates = [];
+		      var events = [];
+		      var date, m, title, i, genres;
+			  
+		      var tentatives = new Array();
+	  	      tentatives[0] = "January";
+	 	      tentatives[1] = "February";
+		      tentatives[2] = "March";
+		      tentatives[3] = "April";
+		      tentatives[4] = "May";
+		      tentatives[5] = "June";
+		      tentatives[6] = "July";
+		      tentatives[7] = "August";
+		      tentatives[8] = "September";
+		      tentatives[9] = "October";
+		      tentatives[10] = "November";
+		      tentatives[11] = "December";
+		      tentatives[12] = "Q";
+
+		      arr.map(function (X) {
+	 
+		        // REMOVE [iOS 1.2.3 ... ]
+		        title = X["Content Title"];
+		        i = title.indexOf("[");
+		        if (i > 0)
+		          title = title.substring(0,i-1);
+
+		        // REMOVE "Mobile Software Applications"
+		        genres = X["Genres"];
+		        genres = genres.replace(/Mobile Software Applications/g, "");
+		        genres = genres.replace(/>/g, "");
+
+		        if (X["Tracking Priority"] >= TP && X["Featuring Priority"] >= FP) {
+		          var tentative = false;
+
+		          // CHECK IS TENTATIVE
+		          for (i=0 ; i < tentatives.length ; i++) {
+		            if(X["Store Date"].search(tentatives[i]) >= 0)
+		              tentative = true;
+		          }
+
+		          m = 6; // m = date.getMonth();
+
+		          if (tentative) {
+		            if (m == month) {
+		              tentativedates.push ({
+		                title: title,
+		                startsAt: X["Store Date"],
+		                AdamID: X["Adam ID"],
+		                Artist: X["Artist"],
+		                Platform: X["Platform"],
+		                Genres: genres,
+		                TrackingPriority: X["Tracking Priority"],
+		                FeaturingPriority: X["Featuring Priority"],
+		                Comments: X["Comments"],
+
+		                editable: true,
+		                deletable: true,
+		                draggable: true
+		              });
+		            }
+		          }
+
+		          else {
+		            date = new Date (X["Store Date"]);
+		            date.setDate(date.getDate() + 1);
+
+		            events.push ({
+		              title: title,
+		              startsAt: date,
+		              AdamID: X["Adam ID"],
+		              Artist: X["Artist"],
+		              Platform: X["Platform"],
+		              Genres: genres,
+		              TrackingPriority: X["Tracking Priority"],
+		              FeaturingPriority: X["Featuring Priority"],
+		              Comments: X["Comments"],
+
+		              editable: true,
+		              deletable: true,
+		              draggable: true
+		            });
+		          }
+		        }
+		      });
+
+		    vm.tentative = tentativedates;
+		    vm.events = events;
+		    refreshCalendar();
+		    console.log("TENT:  " + vm.tentative);
+		  });
+		}
+
+	    // TRACKING PRIORITY SLIDER
+	    var TPslider = $('#ex1').slider({
+	      formatter: function(value) {
+	        TP = value;
+	        return value;
+	      }
+	    })
+	    .on('change', update);
+
+	    // FEATURING PRIORITY SLIDER
+	    var FPslider = $('#ex2').slider({
+	      formatter: function(value) {
+	        FP = value;
+	        return value;
+	      }
+	    })
+	    .on('change', update);
+
+	      // PREVIOUS BUTTON
+	      $('#previous').click(function() {
+	        month--;
+	        update();
+	      });
+
+	      // NEXT BUTTON
+	      $('#next').click(function() {
+	        month++;
+	        update();
+	      });
 
 	    function refreshCalendar() {
 
@@ -649,7 +778,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-
 	var angular = __webpack_require__(12);
 
 	angular
@@ -663,7 +791,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    $scope.$on('calendar.refreshView', function() {
 
 	      vm.weekDays = calendarHelper.getWeekDayNames();
-
+	      // console.log("IM HEREEEEEE!!!!");
 	      vm.view = calendarHelper.getMonthView(vm.events, vm.viewDate, vm.cellModifier);
 	      var rows = Math.floor(vm.view.length / 7);
 	      vm.monthOffsets = [];
