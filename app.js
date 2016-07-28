@@ -1,7 +1,7 @@
 angular
   .module('heatmap', ['mwl.calendar', 'ui.bootstrap', 'ngTouch', 'ngAnimate', 'oc.lazyLoad', 'hljs'])
   .controller('heatmapCtrl', function(alert) {
-  	var main = this;
+    var main = this;
     main.calendarView = "month";
     main.calendarDate = new Date();
     main.events = [];
@@ -91,25 +91,91 @@ angular
       })
       .on('change', update);
 
-        // PREVIOUS BUTTON
-        $('#previous').click(function() {
-          month--;
-          update();
+      // PREVIOUS BUTTON
+      $('#previous').click(function() {
+        month--;
+        update();
+      });
+
+      // NEXT BUTTON
+      $('#next').click(function() {
+        month++;
+        update();
+      });
+
+
+      // INITIALIZE CALENDAR
+      $.get("http://swuu.github.io/theheat/json.html", function(data, status){
+        arr = JSON.parse(data);
+        var date, m, title, genres, i;
+
+        arr.map(function (X) {
+          var m, date;
+          var tentative = false;
+
+          // REMOVE [iOS 1.2.3 ... ]
+          title = X["Content Title"];
+          i = title.indexOf("[");
+          if (i > 0)
+            title = title.substring(0,i-1);
+
+          // REMOVE "Mobile Software Applications"
+          genres = X["Genres"];
+          genres = genres.replace(/Mobile Software Applications/g, "");
+          genres = genres.replace(/>/g, "");
+
+          // CHECK IS TENTATIVE
+          for (i=0 ; i < tentatives.length ; i++) {
+            if(X["Store Date"].search(tentatives[i]) >= 0)
+              tentative = true;
+          }
+
+          m =  6;  //  m = date.getMonth();
+          
+          if (tentative && m == month) {
+            main.tentative.push ({
+              title: title,
+              startsAt: X["Store Date"],
+              AdamID: X["Adam ID"],
+              Artist: X["Artist"],
+              Platform: X["Platform"],
+              Genres: genres,
+              TrackingPriority: X["Tracking Priority"],
+              FeaturingPriority: X["Featuring Priority"],
+              Comments: X["Comments"],
+
+              editable: true,
+              deletable: true,
+              draggable: true
+            });
+          }
+
+          else {
+            date = new Date (X["Store Date"]); 
+            date.setDate(date.getDate() + 1);
+
+            main.events.push ({
+              title: title,
+              startsAt: date,
+              AdamID: X["Adam ID"],
+              Artist: X["Artist"],
+              Platform: X["Platform"],
+              Genres: genres,
+              TrackingPriority: X["Tracking Priority"],
+              FeaturingPriority: X["Featuring Priority"],
+              Comments: X["Comments"],
+
+              editable: true,
+              deletable: true,
+              draggable: true
+            });
+          }
         });
+      });
+    });
 
-        // NEXT BUTTON
-        $('#next').click(function() {
-          month++;
-          update();
-        });
-
-
-      var TP, FP;
-      var month = (new Date()).getMonth();
       // UDATE CALENDAR, CALLED BY PREVIOUS, TODAY, NEXT, TPslider, and FPslider
       var update = function() {
-        $.get("http://swuu.github.io/theheat/json.html", function(data, status){
-            var arr = JSON.parse(data);
           var tentativedates = [];
           var events = [];
           var date, m, title, i, genres;
@@ -198,156 +264,7 @@ angular
 
         main.tentative = tentativedates;
         main.events = events;
-      });
     }
-
-      // INITIALIZE CALENDAR
-      $.get("http://swuu.github.io/theheat/json.html", function(data, status){
-        arr = JSON.parse(data);
-        var date, m, title, genres, i;
-
-        arr.map(function (X) {
-          var m, date;
-          var tentative = false;
-
-          // REMOVE [iOS 1.2.3 ... ]
-          title = X["Content Title"];
-          i = title.indexOf("[");
-          if (i > 0)
-            title = title.substring(0,i-1);
-
-          // REMOVE "Mobile Software Applications"
-          genres = X["Genres"];
-          genres = genres.replace(/Mobile Software Applications/g, "");
-          genres = genres.replace(/>/g, "");
-
-          // CHECK IS TENTATIVE
-          for (i=0 ; i < tentatives.length ; i++) {
-            if(X["Store Date"].search(tentatives[i]) >= 0)
-              tentative = true;
-          }
-
-          m =  6;  //  m = date.getMonth();
-          
-          if (tentative && m == month) {
-            main.tentative.push ({
-              title: title,
-              startsAt: X["Store Date"],
-              AdamID: X["Adam ID"],
-              Artist: X["Artist"],
-              Platform: X["Platform"],
-              Genres: genres,
-              TrackingPriority: X["Tracking Priority"],
-              FeaturingPriority: X["Featuring Priority"],
-              Comments: X["Comments"],
-
-              editable: true,
-              deletable: true,
-              draggable: true
-            });
-          }
-
-          else {
-            date = new Date (X["Store Date"]); 
-            date.setDate(date.getDate() + 1);
-
-            main.events.push ({
-              title: title,
-              startsAt: date,
-              AdamID: X["Adam ID"],
-              Artist: X["Artist"],
-              Platform: X["Platform"],
-              Genres: genres,
-              TrackingPriority: X["Tracking Priority"],
-              FeaturingPriority: X["Featuring Priority"],
-              Comments: X["Comments"],
-
-              editable: true,
-              deletable: true,
-              draggable: true
-            });
-          }
-        });
-      });
-    });
-
-    // UDATE CALENDAR, CALLED BY PREVIOUS, TODAY, NEXT, TPslider, and FPslider
-    var update = function() {
-      var tentativedates = [];
-      var events = [];
-      var date, m;
-
-      arr.map(function (X) {
-
-        // REMOVE [iOS 1.2.3 ... ]
-        title = X["Content Title"];
-        i = title.indexOf("[");
-        if (i > 0)
-          title = title.substring(0,i-1);
-
-        // REMOVE "Mobile Software Applications"
-        genres = X["Genres"];
-        genres = genres.replace(/Mobile Software Applications/g, "");
-        genres = genres.replace(/>/g, "");
-
-        if (X["Tracking Priority"] >= TP && X["Featuring Priority"] >= FP) {
-          var tentative = false;
-
-          // CHECK IS TENTATIVE
-          for (i=0 ; i < tentatives.length ; i++) {
-            if(X["Store Date"].search(tentatives[i]) >= 0)
-              tentative = true;
-          }
-
-          m = 6; // m = date.getMonth();
-
-          if (tentative) {
-            if (m == month) {
-              tentativedates.push ({
-                title: title,
-                startsAt: X["Store Date"],
-                AdamID: X["Adam ID"],
-                Artist: X["Artist"],
-                Platform: X["Platform"],
-                Genres: genres,
-                TrackingPriority: X["Tracking Priority"],
-                FeaturingPriority: X["Featuring Priority"],
-                Comments: X["Comments"],
-
-                editable: true,
-                deletable: true,
-                draggable: true
-              });
-            }
-          }
-
-          else {
-            date = new Date (X["Store Date"]);
-            date.setDate(date.getDate() + 1);
-
-            events.push ({
-              title: title,
-              startsAt: date,
-              AdamID: X["Adam ID"],
-              Artist: X["Artist"],
-              Platform: X["Platform"],
-              Genres: genres,
-              TrackingPriority: X["Tracking Priority"],
-              FeaturingPriority: X["Featuring Priority"],
-              Comments: X["Comments"],
-
-              editable: true,
-              deletable: true,
-              draggable: true
-            });
-          }
-        }
-      });
-
-      main.tentative = tentativedates;
-      main.events = events;
-    }
-
 
     main.eventClicked = function(event) {
       alert.show('Clicked', event);

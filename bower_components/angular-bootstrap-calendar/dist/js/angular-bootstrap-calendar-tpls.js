@@ -315,6 +315,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return true;
 	    }
 
+        $('#ex1').slider({
+          formatter: function(value) {
+            return value;
+          }
+        })
+        .on('change', refreshCalendar);
+      
+        $('#ex2').slider({
+          formatter: function(value) {
+            return value;
+          }
+        })
+        .on('change', refreshCalendar);
+
 	    function refreshCalendar() {
 
 	      if (calendarTitle[vm.view] && angular.isDefined($attrs.viewTitle)) {
