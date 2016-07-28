@@ -7,7 +7,9 @@ angular
     main.events = [];
     main.tentative = [];
 
-    var TP, FP, arr;
+    var TP = 0;
+    var FP = 0;
+    var arr;
     var month = main.calendarDate.getMonth();
 
     var tentatives = new Array();
@@ -102,7 +104,6 @@ angular
         month++;
         update();
       });
-
 
       // INITIALIZE CALENDAR
       $.get("http://swuu.github.io/theheat/json.html", function(data, status){

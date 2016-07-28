@@ -315,19 +315,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return true;
 	    }
 
-        $('#ex1').slider({
-          formatter: function(value) {
-            return value;
-          }
-        })
-        .on('change', refreshCalendar);
-      
-        $('#ex2').slider({
-          formatter: function(value) {
-            return value;
-          }
-        })
-        .on('change', refreshCalendar);
+	    // FOR THE CATEGORY, PLATFORM, NEW/UPDATE FILTERS, ALSO CALL REFRESHCALENDAR HERE
+        $('#ex1').slider({}).on('change', refreshCalendar);
+        $('#ex2').slider({}).on('change', refreshCalendar);
 
 	    function refreshCalendar() {
 
