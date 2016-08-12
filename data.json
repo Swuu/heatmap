@@ -1,0 +1,4847 @@
+[
+ {
+   "Content Title": "Star Wars [iOS:1.9]",
+   "Adam ID": 960108075,
+   "Artist": "Disney",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > News",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "Limited availability",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Disney Buddies: ABCs [iOS:1.1, tvOS:1.1]",
+   "Adam ID": 1072469728,
+   "Artist": "Disney",
+   "Store Type": "Apple TV",
+   "Genres": "Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-21",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Craftsy [tvOS:1.1.0, iOS:3.3.4]",
+   "Adam ID": 540872054,
+   "Artist": "Sympoz Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-21",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Toca Blocks [iOS:1.2]",
+   "Adam ID": 1057925633,
+   "Artist": "Toca Boca AB",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-21",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Official F1® App [iOS:8.042]",
+   "Adam ID": 835022598,
+   "Artist": "Formula One Digital Media Limited",
+   "Store Type": "All",
+   "Genres": "",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-21",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Nanoleaf Smarter Series for HomeKit Connected Lighting [iOS:1.1]",
+   "Adam ID": 1049333656,
+   "Artist": "Nanoleaf",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-21",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "View-Master® National Geographic Dinosaurs [iOS:1.0.0]",
+   "Adam ID": 1099171499,
+   "Artist": "Mattel, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-01",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Space Warrior: The Origin [iOS:1.0.1]",
+   "Adam ID": 1078595832,
+   "Artist": "Caliburnus Limited",
+   "Store Type": "None",
+   "Genres": "",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-20",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Stick Tennis Tour [iOS:2.0.5]",
+   "Adam ID": 994158112,
+   "Artist": "Stick Sports Ltd",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Sports; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Sports",
+   "Tracking Priority": 2,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-20",
+   "Comments": "This tennis game is a little stiff and doesn’t look that great, and while the update promises an easier onboarding experience, I encountered a bug that glitched the tutorial.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Hyper: Daily Videos Offline [iOS:2.0.4, tvOS:1.5]",
+   "Adam ID": 1015014154,
+   "Artist": "AntiHero, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > News",
+   "Tracking Priority": 3,
+   "Featuring Priority": 9,
+   "Store Date": "2016-07-15",
+   "Comments": "6.15 THU",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "SimCity BuildIt [iOS:1.13.9]",
+   "Adam ID": 913292932,
+   "Artist": "Electronic Arts",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Eurosport Player [iOS:5.1.6]",
+   "Adam ID": 339708415,
+   "Artist": "Eurosport",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Teeter – Endless Arcade Balancer [iOS:1.0.1]",
+   "Adam ID": 1084084901,
+   "Artist": "The Frosty Pop Corps Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-15",
+   "Comments": "Tricky but really rewarding game about balancing a ball on a moving platform. Tapping the screen moves each end of the platform upward and rolls the ball, and the game finds a multitude of interesting ways to challenge you.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "REAL SIMPLE Magazine [iOS:32.57.2]",
+   "Adam ID": 473332324,
+   "Artist": "Time Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "PEOPLE EN ESPAÑOL Revista [iOS:32.57.2]",
+   "Adam ID": 479561516,
+   "Artist": "Time Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "TIME Magazine [iOS:32.57.2]",
+   "Adam ID": 369021520,
+   "Artist": "Time Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "御靈錄Otogi [iOS:1.1]",
+   "Adam ID": 1100991397,
+   "Artist": "Mitama Games",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Card; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Brave Diggers [iOS:1.0.5]",
+   "Adam ID": 1094114259,
+   "Artist": "REALITY SQUARED GAME CO., LIMITED",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-15",
+   "Comments": "An elaborate loot drop simulator with surprisingly quirky dialogue. Retro visual style is nicely done but not particularly impressive, with some goofy elements like how characters float around and spin in the battle screen. Relatively low interactivity, but for a decent offering for those who like to upgrade and chase random drops.",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Town & Country Magazine US [iOS:5.1.4]",
+   "Adam ID": 489856510,
+   "Artist": "Hearst Communications, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Car and Driver Magazine US [iOS:5.1.4]",
+   "Adam ID": 389029707,
+   "Artist": "Hachette Filipacchi Media U.S.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Road & Track Magazine US [iOS:5.1.4]",
+   "Adam ID": 478415561,
+   "Artist": "Hearst Communications, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Esquire Magazine US [iOS:5.1.4]",
+   "Adam ID": 431520707,
+   "Artist": "Hearst Communications, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Seventeen Magazine US [iOS:5.1.4]",
+   "Adam ID": 452322504,
+   "Artist": "Hearst Communications, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Puzzle Wiz [iOS:1.07]",
+   "Adam ID": 1051502179,
+   "Artist": "Wicked Witch",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-15",
+   "Comments": "A matching game with unique elements, combining color matching with exploration. Does a good job of making you feel like you have control and are responsible for success. Clever design, decent visual style.",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Cube Roll [iOS:1.0.0]",
+   "Adam ID": 1107217529,
+   "Artist": "Appsolute Games LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-15",
+   "Comments": "Straightforward arcade game with simple controls — hold screen to climb, release to move horizontally. Entertaining challenge, though no real standout elements. Clean visual style. Ads are annoying.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "ICQ – Free Video Call, Chat and Voice [iOS:6.8.1]",
+   "Adam ID": 152707408,
+   "Artist": "ICQ",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Utilities",
+   "Tracking Priority": 0,
+   "Featuring Priority": 2,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Formula Legend - Racing Management Simulation [iOS:2.0.1]",
+   "Adam ID": 700326466,
+   "Artist": "BeerMogul Games",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Racing",
+   "Tracking Priority": 2,
+   "Featuring Priority": 4,
+   "Store Date": "2016-07-15",
+   "Comments": "Very, very rough looking and playing Formula game that’s more about managing than it is about playing. Dated visuals and the updates are only really about the rosters for the 2016 series",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Solo Selfie [iOS:1.0.14]",
+   "Adam ID": 1070864992,
+   "Artist": "TIPIT LTD",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 2,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Farm Heroes Super Saga [iOS:0.33.3]",
+   "Adam ID": 1058370552,
+   "Artist": "King",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 3,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-15",
+   "Comments": "Similar mechanically to Farm Heroes Saga but with much better visuals and overall level of polish. New mechanics are sprinkled in too to give the game more of a sense of distinction, so those familiar with the original will still find new ways to interact, even if they aren’t particularly major.",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Trials Frontier [iOS:4.2.2]",
+   "Adam ID": 659153159,
+   "Artist": "Ubisoft",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Racing; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-15",
+   "Comments": "It’s a great version of Trials, and the update gives us a bunch more new challenges that are hidden and must be discovered.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "TOUR DE FRANCE 2016, presented by ŠKODA [iOS:5.1]",
+   "Adam ID": 537634796,
+   "Artist": "Amaury Sport Organisation (A.S.O)",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > News",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "TOUR DE FRANCE 2016 [iOS:5.1]",
+   "Adam ID": 537626279,
+   "Artist": "Amaury Sport Organisation (A.S.O)",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > News",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "SNKRS [iOS:2.2.1]",
+   "Adam ID": 911115812,
+   "Artist": "Nike, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Shopping; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-15",
+   "Comments": "Art placement",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Castro 2",
+   "Adam ID": 1080840241,
+   "Artist": "Supertop",
+   "Store Type": "None",
+   "Genres": "",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tour de France 2016 - the official game [iOS:1.1.6]",
+   "Adam ID": 1077768015,
+   "Artist": "Playsoft",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "War Commander: Rogue Assault [iOS:2.6.0]",
+   "Adam ID": 695948278,
+   "Artist": "KIXEYE",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 3,
+   "Featuring Priority": 8,
+   "Store Date": "TBD (2016)",
+   "Comments": "Build and battle game with a military theme and solid production values. Navigating the UI can feel cumbersome, particularly when trying to move around your mobile HQ in search of new fights. Actual combat works well, the ability to individually select and control units is welcome, helps you feel more involved in a fight, and makes success feel like more of a result of your actions.",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Bmaps [iOS:1.0.3]",
+   "Adam ID": 1088807625,
+   "Artist": "Mirairo Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Navigation; Mobile Software Applications > Health & Fitness",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Home Design 3D Outdoor & Garden [iOS:4.0.1]",
+   "Adam ID": 978726175,
+   "Artist": "Anuman",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Productivity; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-22",
+   "Comments": "Not submitted",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "DC Comics Legends [iOS:1.6.2]",
+   "Adam ID": 932500451,
+   "Artist": "Warner Bros.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "Q3 (2016)",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Mahjong FRVR - Free Mahjong Solitaire [iOS:1.2.0]",
+   "Adam ID": 1100087485,
+   "Artist": "FRVR",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Board; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 1,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-27",
+   "Comments": "Nice visuals for the tiles and background in this Mahjong game, but the menu UI feels unfinished. Easy to play and control.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "LEGO® Star Wars™: The Force Awakens [iOS:1.0.1]",
+   "Adam ID": 1107014973,
+   "Artist": "Warner Bros.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 3,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-22",
+   "Comments": "A typical LEGO action/puzzler with a very familiar blend of action, exploration, item collection and puzzle solving where you switch between multiple characters to bypass obstacles. The real entertainment value here is watching the story of the movie told through the typically goofy LEGO filter.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "SBS On Demand [tvOS:1.0.0, iOS:1.2.8]",
+   "Adam ID": 542090992,
+   "Artist": "Special Broadcasting Service Corporation",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "Can we please ask the partner for artwork assets for:\n* Tour De France 2016",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "True Skate [iOS:1.4.2]",
+   "Adam ID": 549105915,
+   "Artist": "True Axis",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Sports; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-22",
+   "Comments": "Fun if a little frustrating in its strange control mechanics. The update tweaks the camera a bit but otherwise it’s going free for a week.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Deja Who [iOS:1.1.1]",
+   "Adam ID": 1114411407,
+   "Artist": "Amelus Digital Pty Limited",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-22",
+   "Comments": "Game with tinder-like controls about identifying people. Need to remember details and detain the right person. Simple straightforward premise. Seem to be some unresponsive inputs on iPad, where sometimes swipes don’t register.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "僵尸榨汁机-全新僵尸来袭 [iOS:4.4.0]",
+   "Adam ID": 1029384674,
+   "Artist": "Shanghai Jianyou Information Technology Company Limited",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Inner Circle [iOS:1.0.1]",
+   "Adam ID": 1076199012,
+   "Artist": "ZPLAY",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 4,
+   "Store Date": "2016-07-22",
+   "Comments": "While its gameplay is actually quite different from Color Switch, the art style is pretty obviously copied. This style of gameplay involving rotating rings to match colors, which is also unoriginal, isn’t very polished either.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Skyscanner Flights – Search Airlines, Compare Deals and Book Cheap Travel [iOS:4.16]",
+   "Adam ID": 415458524,
+   "Artist": "Skyscanner",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Travel",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Vainglory [iOS:1.19.3]",
+   "Adam ID": 671464704,
+   "Artist": "Super Evil Megacorp",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-22",
+   "Comments": "Great MOBA, with a new map and other content in the most recent update.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Foresee: Your Personal Activity Forecast",
+   "Adam ID": 934907611,
+   "Artist": "BorderLeap, LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "MLB.com At Bat [tvOS:2.3.0, iOS:9.3.1]",
+   "Adam ID": 493619333,
+   "Artist": "MLB.com",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "多纳餐厅2 [iOS:1.2]",
+   "Adam ID": 1116564897,
+   "Artist": "New Oriental Xuncheng Network Technology CO.Ltd",
+   "Store Type": "All",
+   "Genres": "",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "ROCKY™",
+   "Adam ID": 1042770750,
+   "Artist": "Tapinator, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "TBD (2016)",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Kiswe [iOS:4.2.0]",
+   "Adam ID": 849731905,
+   "Artist": "Kiswe Mobile",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-22",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Battle Camp [iOS:3.6.0]",
+   "Adam ID": 569929985,
+   "Artist": "PennyPop",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-29",
+   "Comments": "New world and new challenges.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tip Tap Soccer [iOS:1.1]",
+   "Adam ID": 1107542634,
+   "Artist": "Neon Play",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-22",
+   "Comments": "Straightforward clicker / idle game without much to distinguish it from the crowd aside from a soccer theme.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Galaxy of Trian [iOS:1.1.4]",
+   "Adam ID": 971683863,
+   "Artist": "Grey Wizard Innovative Ltd",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Games > Board",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-22",
+   "Comments": "Game version of an interesting board game about placing tiles to establish territory to score points. Similarities to Carcassone. Unfortunately the presentation qualities here don’t feel finished. Very rough UI and text. Not a very polished board game conversion.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Heavy Metal Tennis Training [iOS:1.2]",
+   "Adam ID": 1080345135,
+   "Artist": "SHAPE MINDS UG",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-22",
+   "Comments": "Goofy arcade game where you battle a machine that shoots tennis balls. Requires very precise timing to return tennis balls at a specific angle to deal damage to the machines and progress to the next one. Nice retro visual style.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tricky Trap [iOS:1.1]",
+   "Adam ID": 1101700057,
+   "Artist": "Nanovation",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-22",
+   "Comments": "Very challenging game about navigating between moving obstacles. Instant-death upon collisions means you’ll need to undergo frequent restarts. More frustrating than satisfying. Ads pop up fairly often and distract from the experience.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Habbo - Virtual World [iOS:2.1]",
+   "Adam ID": 794866182,
+   "Artist": "Sulake Corporation Oy",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Social Networking; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-22",
+   "Comments": "Promised “huge” update but no binary submitted so can’t confirm.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "HistoMaster UK: Learning History of United Kingdom is Fun - Brexit Quiz Game [iOS:1.1, tvOS:1.1]",
+   "Adam ID": 1027507048,
+   "Artist": "Alexandre Minard",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games > Family; Mobile Software Applications > Games > Educational; Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-15",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Crypt of the NecroDancer Pocket Edition [tvOS:1.0, iOS:1.0]",
+   "Adam ID": 1085123968,
+   "Artist": "Brace Yourself Games",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 4,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-29",
+   "Comments": "Challenging dungeon crawler most notable for combining dungeon crawling with rhythm gameplay. Tap to the beat as you move around dungeons and beat up enemies, taking care to observe movement patterns and attack from appropriate angles. Can also mine walls to discover additional bonuses, then cash in between dungeon runs to unlock upgrades. Punishing gameplay, but rewarding. Great style and soundtrack.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "クリプト・オブ・ネクロダンサー [iOS:1.0, tvOS:1.0]",
+   "Adam ID": 1085123767,
+   "Artist": "Spike-Chunsoft CO, LTD.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Cartoon Network Anything - Micro Games, Video Clips, Activities and More! Now Featuring Steven Universe! [iOS:2.0.0]",
+   "Adam ID": 920025790,
+   "Artist": "Cartoon Network",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > Games",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Real Racing 3 [tvOS:4.4.1, iOS:4.4.1]",
+   "Adam ID": 556164350,
+   "Artist": "Electronic Arts",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Racing",
+   "Tracking Priority": 1,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-15",
+   "Comments": "Great looking and playing racing game that’s been updated with a handful of new cars.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Réseau Contact – Québec rencontres célibataires gratuit [iOS:3.4.1]",
+   "Adam ID": 955865248,
+   "Artist": "Réseau Contact Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 2,
+   "Store Date": "July (2016)",
+   "Comments": "&quot;A completely redesigned version of the Réseau Contact app will be submitted for review in July 2016 -\tIn addition to redesign, new functionalities will also be integrated such as added filtering options for womens, and new match criterias - Réseau Contact is the most recognized brand for dating in Québec&quot;",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Groove Galaxy [iOS:1.0.2]",
+   "Adam ID": 1091154663,
+   "Artist": "Animoca Brands",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Music; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 3,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-08",
+   "Comments": "A rhythm game mixed with clicker mechanics — this follow-up to Groove Planet features more clearly communicated mechanics so you can city on beat more easily. Exploration element helps provide more structure to progression.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "MICHELIN Restaurants - Recherche et Réservation [tvOS:1.0, iOS:5.1]",
+   "Adam ID": 523153222,
+   "Artist": "ViaMichelin",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Food & Drink; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "ViaMichelin : GPS, Traffic, Speedcam, Route Planner [iOS:6.8.1]",
+   "Adam ID": 443142682,
+   "Artist": "ViaMichelin",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Navigation; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Temple Run 2 [iOS:1.26]",
+   "Adam ID": 572395608,
+   "Artist": "Imangi Studios, LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 1,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-08",
+   "Comments": "Timeless endless runner that’s been updated with a new challenge mode callled “Hall of Kings.”",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Candy Bandit [iOS:1.6.0]",
+   "Adam ID": 974631400,
+   "Artist": "Crazy Labs",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Hollywood Rush [iOS:1.2.36]",
+   "Adam ID": 1053808624,
+   "Artist": "Crazy Labs",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Family; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-08",
+   "Comments": "Nice visual style, solid controls, but mechanically this is a pretty generic lane runner with the usual slide, jump and dodge gameplay with an assortment of power-ups to influence each session.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Ticketmaster\n- Tickets for Concerts, Sports, Broadway, Theater, Festivals & local events near you [iOS:1.9.1]",
+   "Adam ID": 500003565,
+   "Artist": "Ticketmaster",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "Summer assets requested",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Viaplay [iOS:4.9.1, tvOS:1.0]",
+   "Adam ID": 409702778,
+   "Artist": "Viaplay",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > Sports",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Entradas Teatro y Conciertos - Ticketea [iOS:6.6.15]",
+   "Adam ID": 1070077658,
+   "Artist": "ticketea",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "Sending a new request. The developer contacted us via support that they missed the email to submit.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "Brick"
+},
+ {
+   "Content Title": "Sophrologie avec Petit BamBou [iOS:1.0]",
+   "Adam ID": 1107589351,
+   "Artist": "FeelVeryBien",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Health & Fitness",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Dungeon Legends [iOS:1.74]",
+   "Adam ID": 961641025,
+   "Artist": "DIGITAL THINGS SL",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-08",
+   "Comments": "Visually impressive action-focused dungeon explorer. The update adds an event system wher new content will roll in. They’ve also tweaked some of the mechanics like updating the inventorry system.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Stupid Zombies 3 - Featuring: Dying Light [iOS:2.3]",
+   "Adam ID": 979967712,
+   "Artist": "GameResort LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Action; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 1,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-08",
+   "Comments": "Fun turn-based action game featuring tragectory combat and exploding zombies. The update adds ten new levels.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "The New Yorker Magazine [iOS:4.6.9]",
+   "Adam ID": 370714765,
+   "Artist": "Condé Nast Digital",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Magazines & Newspapers; Mobile Software Applications > Magazines & Newspapers > News & Politics",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Flutter: Butterfly Sanctuary [iOS:2.41]",
+   "Adam ID": 564007552,
+   "Artist": "Runaway",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Educational; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Jurassic World™: The Game [iOS:1.9.13]",
+   "Adam ID": 791211390,
+   "Artist": "Ludia",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Virgin Red [iOS:3.0.0]",
+   "Adam ID": 1004492356,
+   "Artist": "Virgin Red Ltd.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Lifestyle; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-08",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "The Rugby Channel [iOS:1.1.2, tvOS:1.1.1]",
+   "Adam ID": 1078392045,
+   "Artist": "USA Rugby Football Union",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-08",
+   "Comments": "6.15 WED",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "UNO ™ & Friends – The Classic Card Game Goes Social! [iOS:2.9.2]",
+   "Adam ID": 537263603,
+   "Artist": "Gameloft",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Card; Mobile Software Applications > Games > Board; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-08",
+   "Comments": "Classic Uno, pretty decently made, but now branded with Ghostbusters characters stylized in the Uno design.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Despicable Me: Minion Rush [tvOS:3.8.0, iOS:3.8.0]",
+   "Adam ID": 596402997,
+   "Artist": "Gameloft",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Family",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-08",
+   "Comments": "By the numbers endless runner, with added content that brings the Minions to Egypt with additional shenanigans that replaces running with flying.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Order & Chaos Online [iOS:3.5.2]",
+   "Adam ID": 414664715,
+   "Artist": "Gameloft",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-14",
+   "Comments": "A solid experience with an update that celebrates an anniversary. Just promoted the sequel in the previous week but we can pepper this into a daily update deep into the schedule.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Canva - Graphic Design & Photo Editing [iOS:1.1.4]",
+   "Adam ID": 897446215,
+   "Artist": "Canva",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Productivity",
+   "Tracking Priority": 0,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-14",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Quest RPG Heroes Wanted [iOS:120]",
+   "Adam ID": 1040059529,
+   "Artist": "NHN STUDIO629",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-14",
+   "Comments": "Unable to connect to server to get into the game. Will look at it later in the week for placement.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Monster Warlord [iOS:3.0.2]",
+   "Adam ID": 551470813,
+   "Artist": "GAMEVIL USA, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-14",
+   "Comments": "Unable to connect to serer to get into the game or download the additional content. Will look at it later in the week for placement.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Amediateka - смотреть лучшие сериалы планеты онлайн [tvOS:1.2, iOS:2.5.3]",
+   "Adam ID": 695094274,
+   "Artist": "A serial LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-14",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Wonder Tactics [iOS:1.2.5]",
+   "Adam ID": 1000559499,
+   "Artist": "Com2uS Corp.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-14",
+   "Comments": "Somewhat decent turn-based battle game with some slick sector-attacking mechanics. not much content in this week’s update, though.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Soul Seeker [iOS:1.5.2]",
+   "Adam ID": 905198150,
+   "Artist": "Com2uS Corp.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-14",
+   "Comments": "Rather impressive action RPG with some solid content updates.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "스톤에이지 [iOS:2.0.0]",
+   "Adam ID": 1070512533,
+   "Artist": "Netmarble Games Corp.",
+   "Store Type": "All",
+   "Genres": "",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-14",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Hay Day [iOS:1.29.96]",
+   "Adam ID": 507627515,
+   "Artist": "Supercell",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Family; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-14",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Family Farm Seaside - Play Free Farming App & Harvest Game Online [iOS:3.6.100]",
+   "Adam ID": 539920547,
+   "Artist": "Fun+",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Family",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-14",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Rail Nation - The railroad strategy game [iOS:3.5.6]",
+   "Adam ID": 920749208,
+   "Artist": "Travian Games GmbH",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-07",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Burger Star - Super Chef Adventures [iOS:1.7]",
+   "Adam ID": 857621104,
+   "Artist": "Kids Fun Club by TabTale",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-07",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Dream Gym – Build Your Own Fitness Empire! [iOS:1.13.8]",
+   "Adam ID": 685358784,
+   "Artist": "Tatem Games",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Health & Fitness",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-07",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tetris® Blitz: 2016 Edition [iOS:3.0.3]",
+   "Adam ID": 63727808,
+   "Artist": "Electronic Arts",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 1,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-07",
+   "Comments": "Updated interface and tweaked visuals for the surprisingly fun tap-based Tetris variant. Not a huge update but it’s worth a resurface.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tetris® Blitz: 2016 Edition [iOS:3.0.3]",
+   "Adam ID": 63727817,
+   "Artist": "Electronic Arts",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-07",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "SpellTower [iOS:3.1.3]",
+   "Adam ID": 476500832,
+   "Artist": "Zach Gage",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Word",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "July (2016)",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Airport Madness 3D [iOS:1.01]",
+   "Adam ID": 1122211599,
+   "Artist": "MP Digital, LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 0,
+   "Featuring Priority": 2,
+   "Store Date": "2016-07-07",
+   "Comments": "Feels unfinished. Low-quality art, terrible UI, very low quality onboarding. Not featurable.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Mimpi Dreams [iOS:2.02, tvOS:1.81]",
+   "Adam ID": 974599171,
+   "Artist": "Silicon Jelly s.r.o.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 4,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-06",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "倚天屠龍記-相約在大都 [iOS:1.0.1]",
+   "Adam ID": 1093474709,
+   "Artist": "Iwplay World",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-06",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Pango Build City [iOS:1.0]",
+   "Adam ID": 1119104329,
+   "Artist": "Studio Pango",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Educational; Mobile Software Applications > Education; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-06",
+   "Comments": "Kids-focused city builder with a really nice visual style. Nothing too sophisticated here, but should be enjoyable for younger gamers.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Résultats Bac, Brevet et BTS 2016 avec digiSchool [iOS:3.0.1]",
+   "Adam ID": 87488465,
+   "Artist": "digiSchool",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-06",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "New Star Soccer [iOS:1.84]",
+   "Adam ID": 498973162,
+   "Artist": "New Star Games",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Sports; Mobile Software Applications > Sports; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 3,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-06",
+   "Comments": "Turn-based soccer game with some fun touch-based kicking mechanics.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Call of Duty®: Heroes [iOS:2.6.0]",
+   "Adam ID": 898968647,
+   "Artist": "Activision Publishing, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 2,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-27",
+   "Comments": "Solid realtime strategy game with a new survival mode and a playable villain. Some 4th of july shenanigans as welll.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Kitchen Scramble: Cooking Game [iOS:3.1.1]",
+   "Adam ID": 813005193,
+   "Artist": "RockYou, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-13",
+   "Comments": "By-the-numbers cook-this deliver-that game with a new reward system.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "FINAL FANTASY BRAVE EXVIUS [iOS:1.0.0]",
+   "Adam ID": 1078553808,
+   "Artist": "SQUARE ENIX INC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 0,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-13",
+   "Comments": "US launch for Brave Exvius. Using a pixel art style, this mobile-centric spin-off of Final Fantasy uses a simple tap to attack combat system similar to the older era Final Fantasy games. Nice 3D effects are added in places as well. There are tons of ways to customize your party, quite a bit of character interaction between missions. Menu system can feel clunky and irritating to navigate, takes some getting used to, but there’s a lot here to dig into. Great music.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Instant - Quantified Self [iOS:4.0.1]",
+   "Adam ID": 991690767,
+   "Artist": "Shashwat Pradhan",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Lifestyle; Mobile Software Applications > Health & Fitness",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "三国天武～本格戦略バトル～ [iOS:1.2.18]",
+   "Adam ID": 950936768,
+   "Artist": "Six Waves Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "FINAL FANTASY BRAVE EXVIUS [iOS:2.0.0]",
+   "Adam ID": 940099765,
+   "Artist": "SQUARE ENIX INC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Adventures of Mana [iOS:1.0.7]",
+   "Adam ID": 1048629983,
+   "Artist": "SQUARE ENIX INC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Action; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "ドラゴンクエストモンスターズ　スーパーライト [iOS:3.0.5]",
+   "Adam ID": 710247888,
+   "Artist": "SQUARE ENIX INC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "聖剣伝説 -ファイナルファンタジー外伝- [iOS:1.0.7]",
+   "Adam ID": 1048629552,
+   "Artist": "SQUARE ENIX INC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Fort Boyard Run [iOS:1.1]",
+   "Adam ID": 1095650092,
+   "Artist": "France Télévisions",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Color Binoculars [iOS:1.0]",
+   "Adam ID": 1076721983,
+   "Artist": "Microsoft Corporation",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Productivity",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "July (2016)",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Angry Birds POP! - Bubble Shooter [iOS:2.19.0]",
+   "Adam ID": 937718942,
+   "Artist": "Rovio Entertainment Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-04",
+   "Comments": "Decent Angry Birds spin-off with a visual 4th of July update and brand new levels.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Angry Birds Friends [iOS:2.6.0]",
+   "Adam ID": 555936735,
+   "Artist": "Rovio Entertainment Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-04",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Runtastic Results: Workout Plans for Strength & Fitness Training [iOS:1.5.1, tvOS:1.0]",
+   "Adam ID": 1035263816,
+   "Artist": "runtastic",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Health & Fitness",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-04",
+   "Comments": "iOS not submitted",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "iCahier de vacances maternelle MS, cahier de vacances de la Moyenne Section à la Grande Section, révision Maternelle [iOS:1.9]",
+   "Adam ID": 642753420,
+   "Artist": "Nomad Education",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Educational; Mobile Software Applications > Education",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-04",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "iCahier de vacances CE2, cahier de vacances du CE2 au CM1, révision CE2, exercices CE2 [iOS:2.8]",
+   "Adam ID": 536608509,
+   "Artist": "Nomad Education",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games; Mobile Software Applications > Games > Educational",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-04",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shimmer and Shine:\nEnchanted Carpet Ride Game [iOS:2.1]",
+   "Adam ID": 1034934076,
+   "Artist": "Nickelodeon",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games; Mobile Software Applications > Games > Educational; Mobile Software Applications > Games > Family",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-04",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Sky Whale - a Game Shakers App [iOS:1.9, tvOS:1.9]",
+   "Adam ID": 969247886,
+   "Artist": "Nickelodeon",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 1,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-11",
+   "Comments": "One tap distance game with a patriotic red-white-blue reskin. Simple fun, very light update.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Flick Kick Football Legends [iOS:1.9.6]",
+   "Adam ID": 697996579,
+   "Artist": "Prodigy Design Limited T/A Sidhe Interactive",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Sports; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-11",
+   "Comments": "Uber Request",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "My Little App [iOS:3.2]",
+   "Adam ID": 534539160,
+   "Artist": "My Little Paris",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-11",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Combo Quest 2 [iOS:1.0.3]",
+   "Adam ID": 1053688442,
+   "Artist": "Tapinator, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 1,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-11",
+   "Comments": "Highly rewarding skill-based combo system. Similar to predecessor but much more interesting in terms of what you can earn and upgrade. Great retro art style, lots of cool rewards. Really fun to play even when you fail.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "QuizJam™ [iOS:2.8.2]",
+   "Adam ID": 1070397199,
+   "Artist": "Gravy Gaming",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Trivia; Mobile Software Applications > Games > Educational; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-11",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shopkins: Welcome to Shopville [iOS:2.1.1]",
+   "Adam ID": 1038796140,
+   "Artist": "Mighty Kingdom",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Family; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-11",
+   "Comments": "Very light hearted kids-focused game with some new mini-games.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "ST channel ［エスティーチャンネル］- 雑誌『セブンティーン』公式アプリ [iOS:1.0.2]",
+   "Adam ID": 1086519782,
+   "Artist": "SHUEISHA Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Catalogs",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-11",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Dungeon Tiles [tvOS:1.0.1, iOS:1.0.2]",
+   "Adam ID": 1093342095,
+   "Artist": "Iyoda",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-12",
+   "Comments": "Nice idea for a Threes-style dungeon crawlers, though the English translation could use some work (it says “golds”, for instance, instead of gold). UI isn’t very polished, feels rough in transition. Decent gameplay, though power-up cost seems prohibitively expensive.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "GENIUS動画英単語2200 [iOS:2.0.1]",
+   "Adam ID": 561292250,
+   "Artist": "United Intelligence",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Reference",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-12",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "ツーリングサポーター by NAVITIME バイク&ツーリング&ナビができるアプリ [iOS:1.8.0]",
+   "Adam ID": 958071296,
+   "Artist": "NAVITIME JAPAN CO.,LTD.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Navigation; Mobile Software Applications > Travel",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-12",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "乗換案内 [iOS:1.8.22]",
+   "Adam ID": 299490481,
+   "Artist": "Jorudan Co.,Ltd.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Navigation; Mobile Software Applications > Travel",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-12",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "空と大地のクロスノア [iOS:1.0.1]",
+   "Adam ID": 1046369962,
+   "Artist": "Aiming Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-01",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "LOUIS VUITTON CITY GUIDE [iOS:2.0.1]",
+   "Adam ID": 1014618396,
+   "Artist": "Louis Vuitton Editeur SAS",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Travel; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-12",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "iCahier collège 4ème, cahier d'exercices de la 4ème à la 3ème [iOS:1.3]",
+   "Adam ID": 668374675,
+   "Artist": "Nomad Education",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-12",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Mini Legend [iOS:1.1.6]",
+   "Adam ID": 1012310599,
+   "Artist": "Twitchy Finger Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Sports; Mobile Software Applications > Sports; Mobile Software Applications > Games > Racing",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-12",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "野球つく！！ [iOS:1.1.2]",
+   "Adam ID": 1076251915,
+   "Artist": "SEGA CORPORATION",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Sports; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Condé Nast Traveller Türkiye [iOS:1.0]",
+   "Adam ID": 1117276936,
+   "Artist": "DOGUS YAYIN GRUBU A.S.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Travel; Mobile Software Applications > Magazines & Newspapers > Travel & Regional; Mobile Software Applications > Magazines & Newspapers > Outdoors & Nature; Mobile Software Applications > Magazines & Newspapers",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-13",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Eurosport Player [iOS:5.1.6]",
+   "Adam ID": 339708413,
+   "Artist": "Eurosport",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-25",
+   "Comments": "Please request artwork for the Tour de France",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Rio 2016 Keyboard [iOS:2.0]",
+   "Adam ID": 1124187470,
+   "Artist": "NBCUniversal Media, LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Utilities",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-25",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "NBC Sports Gold [iOS:1.2, tvOS:1.2]",
+   "Adam ID": 993195227,
+   "Artist": "NBCUniversal Media, LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-25",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "GENIUS動画英単語2200 [iOS:2.0.1]",
+   "Adam ID": 562592250,
+   "Artist": "United Intelligence",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Reference",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-25",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Memrise: learn languages free [iOS:2.1.20]",
+   "Adam ID": 635966718,
+   "Artist": "Memrise",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-05",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Dungeon x Balls [iOS:1.0.7]",
+   "Adam ID": 1094623289,
+   "Artist": "Raysol Games CO., LTD.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-05",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "誰ガ為のアルケミスト [iOS:1.4.0]",
+   "Adam ID": 1018089162,
+   "Artist": "gumi Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-05",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "National Geographic Magazine [iOS:2.5.1]",
+   "Adam ID": 418671597,
+   "Artist": "National Geographic Society",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Magazines & Newspapers; Mobile Software Applications > Magazines & Newspapers > Travel & Regional",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-05",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Ultimate Tennis [iOS:2.0.239]",
+   "Adam ID": 1012734258,
+   "Artist": "9M Interactive Co.,Ltd",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Sports; Mobile Software Applications > Games > Action; Mobile Software Applications > Sports",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-05",
+   "Comments": "Tap and swipe tennis game that’s pretty all right, updated to match Wimbledon timing.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "听戏-戏曲唱段欣赏，京剧黄梅戏昆剧秦腔大全，高品质高清音乐 [iOS:1.1]",
+   "Adam ID": 1075428355,
+   "Artist": "beijing hualu newmedia & information technology Co.,Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Music; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-05",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "NS International [iOS:4.6.1]",
+   "Adam ID": 886645737,
+   "Artist": "NS Internationaal BV",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Travel; Mobile Software Applications > Navigation",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-05",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "The Slaughter: Act One [iOS:1.0.323]",
+   "Adam ID": 1056603685,
+   "Artist": "Alex Francois",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 2,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-05",
+   "Comments": "A mature-themed retro-style adventure game that ranges from mature to bizarre situations. Veers away from expectations at the beginning with surreal dream sequences. Unfortunately seems to have technical issues, slowing to an unplayable crawl after manually saving.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Fort Boyard [iOS:2.1]",
+   "Adam ID": 563173941,
+   "Artist": "Bulkypix",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Board; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Family",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-19",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Crafty Candy [iOS:1.23.2]",
+   "Adam ID": 1031228862,
+   "Artist": "Outplay Entertainment Ltd",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-19",
+   "Comments": "Independence day update for this decent puzzler with a 4th of July theme and a handful of new levels.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Pengomo Connect [iOS:1.0]",
+   "Adam ID": 1111525040,
+   "Artist": "Naked Penguin Boy",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-18",
+   "Comments": "Flow-style gameplay with decent visual style featuring farm animals. Nothing very original, not as polished as other Flow-style games like Tesla Tubes.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Pengomo Switch [iOS:1.0]",
+   "Adam ID": 1111525233,
+   "Artist": "Naked Penguin Boy",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-18",
+   "Comments": "Derivative line-runner that isn’t even as interesting as much older games build in this style like Ring Run Circus. Without any genuine originality, doesn’t deserve especially high featuring.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Fancy Cats [iOS:1.1]",
+   "Adam ID": 1116046099,
+   "Artist": "Channel 4",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-26",
+   "Comments": "Interesting combination of cat collecting and customization with match puzzler. You get a set of stages at timed intervals that can be completed to score prizes. The match puzzling mechanics aren’t innovative, but the over all progression loop at least manages to stand out from the crowd, and the game has a cute style.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "NEO TURF MASTERS [iOS:1.0]",
+   "Adam ID": 1082674903,
+   "Artist": "DotEmu",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Sports; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-26",
+   "Comments": "iOS version of an excellent Neo Geo golf game released way back in 1996. Still has impressive visuals and touch controls are well implemented. An entertaining, accessible arcade-style golfing experience suitable for nostalgia seekers and newcomers.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Village Life: Love, Marriage and Babies [iOS:2.6.1]",
+   "Adam ID": 616655687,
+   "Artist": "Playdemic",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "Crashes after downloading the serverside updates. Will look at it later in the week for placement.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Cute VS Evil [iOS:1.9]",
+   "Adam ID": 1029853328,
+   "Artist": "TiTon ApS",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "Fun mashup of Match Three and bubble popping. A handful of levels were added to the progression.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Ring Mania [iOS:1.1.10]",
+   "Adam ID": 1098326311,
+   "Artist": "Invictus",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "Generic art style but really entertaining gameplay involving dropping rings over poles. A combination of tap and tilt inputs serve as responsive methods of tipping a multitude of rings in just the right direction. Satisfying, skill-based play.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Dead In Bermuda [iOS:1.0]",
+   "Adam ID": 1091598017,
+   "Artist": "Plug In Digital",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Zombie Catchers [iOS:1.13]",
+   "Adam ID": 845918296,
+   "Artist": "Two Men and a Dog",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "Fun action platform with a cartoonish style and zombies. They added a few new set of zombies in this update.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Don't Be Squared [iOS:0.6]",
+   "Adam ID": 1035460404,
+   "Artist": "Super Hippo Studios Limited",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "Side-scrolling auto-runner that tries to do something different with its control scheme. Instead of the typical slide / jump style you draw platforms for your runner, which serve the dual purpose of collecting power-ups and attacking enemies. Well done, except for awkward interruptions when your character comes up against an obstacle without rolling first.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tracky Train [iOS:1.0.1]",
+   "Adam ID": 1057554325,
+   "Artist": "Crash Lab Limited",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Family; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "A verby noun game (or in this case nouny noun?) with intuitive controls. It’s about guiding a train around Crossy Road-like environments. Well-developed sense of risk, reward and progression as bumping into things slows you down and, eventually, causes a crash between you and the train you rely on for success.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Draw Story",
+   "Adam ID": 524720758,
+   "Artist": "Neon Play",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Family; Mobile Software Applications > Games > Word; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Splemy - The Game [iOS:1.0]",
+   "Adam ID": 1110135593,
+   "Artist": "Stephen Biggerstaff",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Merry Pixel - Automatically sort your best photos. [iOS:2.1]",
+   "Adam ID": 1044070498,
+   "Artist": "Merry Pixel",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Productivity",
+   "Tracking Priority": 2,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tap My Katamari - Endless Cosmic Clicker [iOS:1.1.1]",
+   "Adam ID": 1055397979,
+   "Artist": "BANDAI NAMCO Entertainment Europe",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "Genre-standard mechanics in this clicker/idle game based on a far more creative console game franchise. Though it includes the idea of balling a bunch of random objects together, it lacks the excitement of gradual increases in scale. Progression is a little too slow for this to remain interesting for long, despite the nice presentation qualities. The looping song can also be grating after you’ve heard it for the 76th time.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shoebox - Photo Backup and Cloud Storage [iOS:3.2.3]",
+   "Adam ID": 528315604,
+   "Artist": "Couch Labs Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Utilities",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "art request",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Wizard of Oz - Free Vegas Casino Slot Machine Games [iOS:37.0.99]",
+   "Adam ID": 916869395,
+   "Artist": "Zynga Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Casino; Mobile Software Applications > Games > Card",
+   "Tracking Priority": 0,
+   "Featuring Priority": 1,
+   "Store Date": "2016-07-28",
+   "Comments": "Really good slot machine with new slot machines, but since we don’t promote gambling games won’t make the update.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Cooking Dash 2016 [iOS:1.18.13]",
+   "Adam ID": 978866413,
+   "Artist": "Glu Games Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "Classic inoffensive and fun Cook this, serve that game that’s been given a new venue to play in.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Gordon Ramsay DASH [iOS:1.1]",
+   "Adam ID": 1089048531,
+   "Artist": "Glu Games Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 0,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-28",
+   "Comments": "One of the better implementations of a celebrity into an existing gameplay formula. This is essentially Cooking Dash with Gordon Ramsay looking over your shoulder, and the result is quite entertaining. Ramsay provides voice over for tutorials and encouragements during play and can be called upon for a screen-clearing power-up if you’re good enough. Celebrity presence aside, the gameplay fundamentals still work because it’s a proven formula. Would have been nice to see more original elements, but it’s still a memorable, stressful, experience.",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Kim Kardashian: Hollywood [iOS:5.2.0]",
+   "Adam ID": 860822992,
+   "Artist": "Glu Games Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Circa Infinity [iOS:2.0.0]",
+   "Adam ID": 1021672050,
+   "Artist": "Kenny Sun",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "Neat, creative, and clever platformer, with a new infinite mode.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "FarmVille: Harvest Swap [iOS:1.0.2325]",
+   "Adam ID": 882864073,
+   "Artist": "Zynga Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "Match-three with produce. There are some new levels in here.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Bejeweled Blitz [iOS:1.20.0]",
+   "Adam ID": 469960709,
+   "Artist": "PopCap",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 1,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "Fun Bejeweled game with a very basic update. Worth a resurface deeper in the week,",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Cubicle. [iOS:1.0]",
+   "Adam ID": 1120437407,
+   "Artist": "GalacticThumb",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "Twitchy arcade game about avoiding pits and squishing things. Simple input scheme lets you move side to side, easy to understand but the stage design forces you into tough spots. Frustrating because of its difficulty, feels it like rewards luck more than skill.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "CSR Racing 2 [iOS:1.4.6]",
+   "Adam ID": 887947640,
+   "Artist": "NaturalMotion",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Racing; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-28",
+   "Comments": "An absurdly high production value drag racing sequel. The core gameplay is very similar to past CSR games, but wow this game looks incredible. The UI, the detailed cars, the flashy animations, everything is brilliantly polished. Live Race feature is a meaningful addition and has worked in previous testing rounds, though in the latest build can’t seem to connect with opponents.",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "コノビー(Conobie) 〜妊娠・出産・子育て情報を無料でお届け〜 [iOS:1.1.1]",
+   "Adam ID": 1080525142,
+   "Artist": "LITALICO Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "土井善晴の和食 [iOS:1.0]",
+   "Adam ID": 1123908844,
+   "Artist": "FASTMEDIA Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Food & Drink; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-01",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Rio 2016 Keyboard [iOS:2.0]",
+   "Adam ID": 1124187470,
+   "Artist": "NBCUniversal Media, LLC",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Utilities; Mobile Software Applications > Sports",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "July (2016)",
+   "Comments": "6.29 WED",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Bubble Genius [iOS:1.16.0]",
+   "Adam ID": 1029913337,
+   "Artist": "Outplay Entertainment Ltd",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 1,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "Bubble popper puzzle game. 4th of July update so america costumes and about 20 new levels.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Epic Heroes of Knowledge [iOS:2.22]",
+   "Adam ID": 904827467,
+   "Artist": "Yogome, Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "francetv sport - Regardez le Tour de France en direct [iOS:4.0.13]",
+   "Adam ID": 545290458,
+   "Artist": "France Télévisions",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Disney Buddies: 123s [iOS:1.1, tvOS:1.1]",
+   "Adam ID": 1093345408,
+   "Artist": "Disney",
+   "Store Type": "Apple TV",
+   "Genres": "Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "CBC Rio 2016 [iOS:1.0.0]",
+   "Adam ID": 1124123642,
+   "Artist": "CBC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Rio 2016 à Radio-Canada [iOS:1.0]",
+   "Adam ID": 1107656801,
+   "Artist": "Radio-Canada",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > News",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "CBC Rio 2016 [iOS:1.0.0]",
+   "Adam ID": 1124123642,
+   "Artist": "CBC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "火影忍者-疾风传登场 [iOS:1.11.22]",
+   "Adam ID": 955396648,
+   "Artist": "Tencent Mobile Games",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Action; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "御龙在天 [iOS:1.0.0]",
+   "Adam ID": 1071051095,
+   "Artist": "Tencent Mobile Games",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-01",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "IGLOO - Les boutiques chez vous [iOS:3.2]",
+   "Adam ID": 882460877,
+   "Artist": "IGLOO SAS",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tiny Cyan - How Many Colors Can You Make [iOS:1.0]",
+   "Adam ID": 1071741400,
+   "Artist": "approviders ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games > Educational; Mobile Software Applications > Games > Family; Mobile Software Applications > Games",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "LEGO® City My City 2 [iOS:5.0.377]",
+   "Adam ID": 1117365978,
+   "Artist": "LEGO Systems, Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "Nicely presented but ultimately fairly dull LEGO game. Very repetitive stage objectives, nothing particularly creative about its game mechanics. Strongest aspect is the visual style. Potentially much more appealing to younger audiences.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Zola Wedding Registry - Gifts, Experiences, Honeymoon, Cash Funds and More [iOS:3.1.0]",
+   "Adam ID": 852691916,
+   "Artist": "Zola, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Shopping; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "The official UEFA Champions League app [iOS:1.24]",
+   "Adam ID": 1024507667,
+   "Artist": "UEFA",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > News",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Rent the Runway [iOS:3.1.1]",
+   "Adam ID": 672853807,
+   "Artist": "Rent the Runway",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Shopping; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Symple - Symptom Tracker & Health Diary [iOS:2.0.9]",
+   "Adam ID": 479818115,
+   "Artist": "Symple Health, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Medical; Mobile Software Applications > Health & Fitness",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "ABC – Watch live TV and stream full episodes! (formerly WATCH ABC) [iOS:5.0.1, tvOS:2.0.1]",
+   "Adam ID": 364191819,
+   "Artist": "ABC Digital",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "TeamReach - Team Management Simplified for Sports, Clubs and Groups [iOS:0.9.5]",
+   "Adam ID": 1101253705,
+   "Artist": "Straxis Technology",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "NBC Olympics: Rio News & Results [iOS:1.0]",
+   "Adam ID": 1122878102,
+   "Artist": "NBCUniversal Media, LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "voice bot [iOS:2.1.2]",
+   "Adam ID": 654025528,
+   "Artist": "Erik Sigth",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Music; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 1,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "mixerr - We're all about the remix! [iOS:1.2.3]",
+   "Adam ID": 979947107,
+   "Artist": "Creative Mass Ltd.",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Hooked on Phonics - Learn to Read Program [iOS:5.0.4]",
+   "Adam ID": 588868907,
+   "Artist": "Hooked on Phonics",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Miitomo [iOS:1.3.0]",
+   "Adam ID": 1073816197,
+   "Artist": "Nintendo Co., Ltd.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Games",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "الجزيرة [iOS:3.2.0, tvOS:1.3]",
+   "Adam ID": 507665965,
+   "Artist": "Al Jazeera Network",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "qliqr – one tap communication app [iOS:1.01]",
+   "Adam ID": 1112869675,
+   "Artist": "Monto Bleu BVBA",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Nordstrom – Shopping, Fashion, Clothing & Style [iOS:5.2.1]",
+   "Adam ID": 474349412,
+   "Artist": "Nordstrom, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Shopping; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "PIXY - Live video streaming [iOS:1.0.5]",
+   "Adam ID": 1122622681,
+   "Artist": "Instanza Interactive Limited",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 1,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Haystack TV: Watch world news, business & finance, celebrity gossip and weather [tvOS:3.0, iOS:2.60]",
+   "Adam ID": 829825445,
+   "Artist": "Haystack TV",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Read - Kids learn to read and write in 20 easy lessons [iOS:1.1]",
+   "Adam ID": 1023126431,
+   "Artist": "Olivier Romanetti",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Book",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "6.27 MON",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Jetpack Joyride [tvOS:1.9.7, iOS:1.9.5]",
+   "Adam ID": 457446957,
+   "Artist": "Halfbrick Studios",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "(ATV art for update)",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "UFC KNOCKOUT: MMA Card Trader [iOS:1.0.1]",
+   "Adam ID": 1120208392,
+   "Artist": "The Topps Company, Inc.",
+   "Store Type": "All",
+   "Genres": "",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "BFB Champions～Global Kick-Off～ [iOS:1.2.1]",
+   "Adam ID": 1048038721,
+   "Artist": "nxTomo Games Limited",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Sports",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Less - 最美好物分享社区，专属滤镜提升照片颜值 [iOS:1.6.10]",
+   "Adam ID": 1016411845,
+   "Artist": "Shenzhen KnewOne Technology Co., Ltd.",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "BFB Champions～Global Kick-Off～ [iOS:1.2.1]",
+   "Adam ID": 1048038721,
+   "Artist": "nxTomo Games Limited",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Sports",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Crab War [iOS:1.1.4]",
+   "Adam ID": 1024875461,
+   "Artist": "AppXplore Sdn Bhd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "王者荣耀：无处不团，5V5英雄公平对战手游 [iOS:1.13.207]",
+   "Adam ID": 989673964,
+   "Artist": "Tencent Mobile Games",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Art Stories FACES [iOS:1.1]",
+   "Adam ID": 1113488508,
+   "Artist": "Art Stories srl",
+   "Store Type": "None",
+   "Genres": "",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Farfetch Discover – Luxury Shopping & Designer Fashion [iOS:2.1.6]",
+   "Adam ID": 907698760,
+   "Artist": "Farfetch",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Shopping; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-01",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "MathX - Scientific Graphing Calculator [iOS:2.2]",
+   "Adam ID": 736253264,
+   "Artist": "Bunuël Cubo Soto",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Productivity",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Toonia Colorbook - Educational Coloring Game for Kids & Toddlers [iOS:3.1]",
+   "Adam ID": 633956731,
+   "Artist": "3fs",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games > Educational; Mobile Software Applications > Games > Family; Mobile Software Applications > Games",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Rio 2016 - Aventuras de Tom [iOS:1.0]",
+   "Adam ID": 1121791502,
+   "Artist": "Rio 2016",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 2,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "SpaceChat - Social Flight [iOS:1.2]",
+   "Adam ID": 1125341966,
+   "Artist": "Alien Inc.",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Travel",
+   "Tracking Priority": 0,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Wonder Keyboard: Sound Smart and Funny with Personas [iOS:1.2.0]",
+   "Adam ID": 1086391724,
+   "Artist": "Echelon Creative",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Utilities; Mobile Software Applications > Productivity",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "Brick"
+},
+ {
+   "Content Title": "Peppa Pig: Holiday [iOS:1.1.2]",
+   "Adam ID": 1070085514,
+   "Artist": "Entertainment One",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Family; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Educational",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "Brick"
+},
+ {
+   "Content Title": "Beacon - Hangout, make plans, and discover new places with friends! [iOS:1.1.2]",
+   "Adam ID": 1119280847,
+   "Artist": "Omar Anthony",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 2,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Miitomo [iOS:1.3.0]",
+   "Adam ID": 1073816197,
+   "Artist": "Nintendo Co., Ltd.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Games",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Meipai - TFBOYS Live Stream Channel, Mobile Live Stream Of Celebrities + Mega-Popular Original Videos [iOS:5.1.0]",
+   "Adam ID": 847334708,
+   "Artist": "Xiamen Meitu Technology Co., Ltd.",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "TED [tvOS:2.0, iOS:3.0.1]",
+   "Adam ID": 376183339,
+   "Artist": "TED Conferences",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Musemage - Professional Video Camera and Editor [iOS:2.1.8]",
+   "Adam ID": 951615851,
+   "Artist": "Paraken Technology Co., Ltd.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Photo & Video",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Typic - Beautiful captions and designs over your photos [iOS:6.2]",
+   "Adam ID": 601467470,
+   "Artist": "Hi Mom S.A.S",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Quora [iOS:4.5.2]",
+   "Adam ID": 456034437,
+   "Artist": "Quora, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Reference",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "SelfieCity - Selfie differently! [iOS:2.1.0]",
+   "Adam ID": 1014277964,
+   "Artist": "Xiamen Meitu Technology Co., Ltd.",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video",
+   "Tracking Priority": 0,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Metro – news, sport, entertainment & puzzles, free every weekday [iOS:3.0.3]",
+   "Adam ID": 463429891,
+   "Artist": "dmg media ltd",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Magazines & Newspapers; Mobile Software Applications > Magazines & Newspapers > News & Politics",
+   "Tracking Priority": 0,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "File New - The Ultimate Photo Editor [iOS:1.3]",
+   "Adam ID": 1071897944,
+   "Artist": "Hi Mom S.A.S",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "6.29 WED",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "TripLingo [iOS:5.0.1]",
+   "Adam ID": 596556793,
+   "Artist": "TripLingo, LLC",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Travel; Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Sidewire — Where Experts Chat [iOS:2.3.0]",
+   "Adam ID": 1023491591,
+   "Artist": "Sidewire, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-27",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Robot Unicorn Attack 3",
+   "Adam ID": 1075633819,
+   "Artist": "[adult swim]",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "TBD (2016)",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "PetMOJI – Character Creator & Emoji Keyboard [iOS:1.0.2]",
+   "Adam ID": 1121740076,
+   "Artist": "NBCUniversal Media, LLC",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Utilities; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 1,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "CNET's Tech Today - Daily Technology News, Reviews, Product Comparisons and more [iOS:1.2.2]",
+   "Adam ID": 1077008940,
+   "Artist": "CBS Interactive",
+   "Store Type": "iPad",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "The BFG Game [iOS:1.0.13]",
+   "Adam ID": 1093450864,
+   "Artist": "Reliance Big Entertainment UK Private Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "携程旅行-订酒店机票火车票,查旅游攻略景点门票 [iOS:6.18.0]",
+   "Adam ID": 379395415,
+   "Artist": "携程旅行网",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Travel",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Mad Libs [iOS:3.2]",
+   "Adam ID": 326885152,
+   "Artist": "Penguin Group USA",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > Book",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "大众点评-闪惠,团购,美食,电影,酒店,外卖,KTV,霸王餐,美发,订座 [iOS:8.1.2]",
+   "Adam ID": 351091731,
+   "Artist": "大众点评网",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle; Mobile Software Applications > Shopping",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "WeChat [iOS:6.3.22]",
+   "Adam ID": 414478124,
+   "Artist": "WeChat",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Productivity",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "保卫萝卜3：新世界-官方正版顶级塔防大作，萌动未来 [iOS:1.4.6]",
+   "Adam ID": 1001855348,
+   "Artist": "Tencent Mobile Games",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Family; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "天空城传说-3D模拟经营养成冒险游戏 [iOS:1.7]",
+   "Adam ID": 1080262072,
+   "Artist": "Good net technology co. Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "SuperStar JYPNATION [iOS:1.0.4]",
+   "Adam ID": 1086866467,
+   "Artist": "Dalcomsoft, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Music; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Music",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-01",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Buddyman Run [iOS:1.0.9]",
+   "Adam ID": 1088211144,
+   "Artist": "DreamSky",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Family",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shop MEC [iOS:5.1.1]",
+   "Adam ID": 573282599,
+   "Artist": "Mountain Equipment Co-op",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Shopping; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "Please request updated art assets for category featuring.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "デジモンリンクス [iOS:1.1.1]",
+   "Adam ID": 1044182626,
+   "Artist": "BANDAI NAMCO Entertainment Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Alchemic Maze [tvOS:1.1, iOS:1.1]",
+   "Adam ID": 1084682224,
+   "Artist": "HeroCraft Ltd.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Family; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Saks Fifth Avenue [iOS:4.0]",
+   "Adam ID": 491507258,
+   "Artist": "Saks Fifth Avenue",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Shopping; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shift – The New Way to Buy & Sell Used Cars [iOS:2.0.3]",
+   "Adam ID": 1018489187,
+   "Artist": "Shift Technologies",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Lifestyle; Mobile Software Applications > Shopping",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Fly Mind-Clear Mind Mapping [iOS:1.3]",
+   "Adam ID": 1118662114,
+   "Artist": "kofokoo",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Productivity; Mobile Software Applications > Utilities",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Trevor AI - Time Management Assistant [iOS:1.1]",
+   "Adam ID": 1113523247,
+   "Artist": "Trevor Labs",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Productivity; Mobile Software Applications > Business",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "A Parcel of Courage - an interactive picture book with an extra original set of 4 learning games [iOS:1.2]",
+   "Adam ID": 945333574,
+   "Artist": "Mariya Stavinskaya",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Book; Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Muscle Premium - 3D Visual Guide for Bones, Joints & Muscles - Human Anatomy & Kinesiology [iOS:6.0.31]",
+   "Adam ID": 504001448,
+   "Artist": "Visible Body",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Medical; Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "A Parcel of Courage - an interactive picture book with an extra original set of 4 learning games [iOS:1.2]",
+   "Adam ID": 945333574,
+   "Artist": "Mariya Stavinskaya",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Book; Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "A Parcel of Courage - an interactive picture book with an extra original set of 4 learning games [iOS:1.2]",
+   "Adam ID": 945333574,
+   "Artist": "Mariya Stavinskaya",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Book; Mobile Software Applications > Education",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Meep - Listen to News from the Web [iOS:2.1.3]",
+   "Adam ID": 953674648,
+   "Artist": "Meep Streaming News Radio",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "6.28 TUE",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "ROLR - Act out your favorite movies on video [iOS:2.0.4]",
+   "Adam ID": 943972734,
+   "Artist": "Rolestar",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "7.1 FRI",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "MSQRD — Live Filters & Face Swap for Video Selfies [iOS:1.3]",
+   "Adam ID": 1075249424,
+   "Artist": "Masquerade Technologies, Inc",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "Flowcase"
+},
+ {
+   "Content Title": "Do4Who - To do done different [iOS:2.01]",
+   "Adam ID": 504194668,
+   "Artist": "Good Binary Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Productivity; Mobile Software Applications > Business",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Essential Spanish Vocabulary Flashcards [iOS:1.0.1]",
+   "Adam ID": 1114933724,
+   "Artist": "Breaking the Barrier, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Book",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Inspire — Paint it. Blend it. Love it. [iOS:4.2]",
+   "Adam ID": 315556628,
+   "Artist": "snowCanoe",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "PetMOJI – Character Creator & Emoji Keyboard [iOS:1.0.2]",
+   "Adam ID": 1121740076,
+   "Artist": "NBCUniversal Media, LLC",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Utilities; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-28",
+   "Comments": "7.1 FRI",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Taichi Panda: Heroes - 25vs25 [iOS:1.0.3]",
+   "Adam ID": 1084922804,
+   "Artist": "Snail Games USA Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Recipes and shopping list by Feast Kitchen [iOS:1.4.2]",
+   "Adam ID": 979525007,
+   "Artist": "Feast Kitchen",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Food & Drink; Mobile Software Applications > Health & Fitness",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "梦幻西游-全民PK争霸赛 刘诗诗诚邀来战 [iOS:1.84.0]",
+   "Adam ID": 940547441,
+   "Artist": "网易移动游戏",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Role Playing",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shadowverse [iOS:1.1.2]",
+   "Adam ID": 1091512762,
+   "Artist": "Cygames, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Card",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "A Hearthstone-like card battle game with enough unique mechanics to stand out. Both PvP and PvE components, different character classes with varied gameplay mechanics. Interface takes a while to learn and the game has some issues with EN localization and server stability we’ll continue to monitor. If the localization issues aren’t improved by 6.28 we might not feature in US. If they are fixed, this could move up in featuring.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Downtown Showdown [iOS:1.1.9]",
+   "Adam ID": 1074352624,
+   "Artist": "COLOPL NI, INC.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "梦幻西游-全民PK争霸赛 刘诗诗诚邀来战 [iOS:1.84.0]",
+   "Adam ID": 940547441,
+   "Artist": "网易移动游戏",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Games > Action",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "巅峰战舰：生存战歌咆哮来袭 亚洲大势女团SNH48甜美代言 [iOS:1.2.9]",
+   "Adam ID": 1099554323,
+   "Artist": "英雄互娱",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Strategy",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "myCANAL, les chaînes TV CANAL + et CANALSAT en direct, en replay, en streaming ou à télécharger [iOS:1.5.0]",
+   "Adam ID": 694580816,
+   "Artist": "GROUPE CANAL+",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "Please request generic artworks",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "hotstar [iOS:5.3]",
+   "Adam ID": 934459219,
+   "Artist": "STAR India Pvt. Ltd.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > Photo & Video",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "please submit Wimbledon theme artwork",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Dr. Panda's Ice Cream Truck [iOS:1.33]",
+   "Adam ID": 950593464,
+   "Artist": "Dr. Panda Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 1,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Match and Learn The Greek Gods [iOS:1.0]",
+   "Adam ID": 1092848674,
+   "Artist": "Petita Demas Ltd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Education; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Family; Mobile Software Applications > Games",
+   "Tracking Priority": 1,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "VILLOID - fashion, style, community & shopping [iOS:1.20]",
+   "Adam ID": 721826091,
+   "Artist": "Villoid AS",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Lifestyle; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "*requesting art for category featuring*",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Soon - the Everyday Bucket List for Movies, Restaurants, and More [iOS:2.7.2]",
+   "Adam ID": 939751975,
+   "Artist": "Beginner AB",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Lifestyle; Mobile Software Applications > Productivity",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Splashy Cats: Endless Zigzag Waterslide Arcade Game [iOS:1.0.7]",
+   "Adam ID": 1105999795,
+   "Artist": "Niels Benjamins",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Family",
+   "Tracking Priority": 2,
+   "Featuring Priority": 4,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Sing! Karaoke by Smule [tvOS:1.1.2, iOS:4.7.1]",
+   "Adam ID": 509993510,
+   "Artist": "Smule",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Music; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shadowverse [iOS:1.1.2]",
+   "Adam ID": 1091512762,
+   "Artist": "Cygames, Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Card",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "Flowcase"
+},
+ {
+   "Content Title": "Uptown & Co. - Vintage Filters & insignias. [iOS:2.0.2]",
+   "Adam ID": 982936366,
+   "Artist": "RoadRocks. LLC",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Utilities",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "6.28 THU",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "UA Shop – Under Armour Performance Apparel, Shoes & Accessories [iOS:1.1]",
+   "Adam ID": 1092704571,
+   "Artist": "Under Armour",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Shopping",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "New Dunkin’ Donuts [iOS:4.1.0]",
+   "Adam ID": 1056813463,
+   "Artist": "Dunkin' Donuts",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Food & Drink",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tumblr [iOS:6.4]",
+   "Adam ID": 285343404,
+   "Artist": "Yahoo",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 5,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "VoxSyn [iOS:1.1.0]",
+   "Adam ID": 1098787951,
+   "Artist": "VirSyn",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Music",
+   "Tracking Priority": 0,
+   "Featuring Priority": 2,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "live.ly - live video streaming [iOS:2.7]",
+   "Adam ID": 1085024470,
+   "Artist": "musical.ly Inc.",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Australian Broadcasting Corporation [iOS:3.9.0]",
+   "Adam ID": 287583229,
+   "Artist": "Australian Broadcasting Corporation",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > News; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Splash - 360 Video Camera & Virtual Reality Community [iOS:0.2.56]",
+   "Adam ID": 1057262494,
+   "Artist": "Viorama",
+   "Store Type": "iPhone/iPod Touch",
+   "Genres": "Mobile Software Applications > Photo & Video; Mobile Software Applications > Social Networking",
+   "Tracking Priority": 2,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "夏目的美丽日记：暖心恋爱换装-美颜装扮暖男，开启甜蜜浪漫爱情 [iOS:1.6]",
+   "Adam ID": 1049234005,
+   "Artist": "英雄互娱",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Trivia",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Summoners War [iOS:2.1.8]",
+   "Adam ID": 852912420,
+   "Artist": "Com2uS Corp.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Games > Role Playing; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-29",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "夏目的美麗日記-甜蜜浪漫的愛情回憶 [iOS:1.1.1]",
+   "Adam ID": 1091471010,
+   "Artist": "CHU TSAI",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Deer Hunter 2016 [iOS:2.2.2]",
+   "Adam ID": 893372761,
+   "Artist": "Glu Games Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Action; Mobile Software Applications > Sports",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "Venison-shooting game that looks pretty solid. Update brings a July 4th series of missions.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Farm Away! - Idle Farming [iOS:1.5]",
+   "Adam ID": 1018795567,
+   "Artist": "Futureplay",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "Clicker in in a farming scenario. the update gives a bit more customization to the player.",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tapcast – Video Reaction App [iOS:1.6.67]",
+   "Adam ID": 919336831,
+   "Artist": "Osix Co.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Photo & Video",
+   "Tracking Priority": 0,
+   "Featuring Priority": 3,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Tumblr [iOS:6.4]",
+   "Adam ID": 285343404,
+   "Artist": "Yahoo",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Golfshot Plus: Golf GPS + Scorecard + Tee Times [iOS:5.1]",
+   "Adam ID": 319897973,
+   "Artist": "Shotzoom Software",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Business",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Letterboxd – The social network for film lovers [iOS:1.1.2]",
+   "Adam ID": 1054271011,
+   "Artist": "Letterboxd",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Social Networking; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 8,
+   "Store Date": "2016-07-28",
+   "Comments": "6.28 TUE",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Cardiogram - what's your heart telling you? Understand your heart rate on your watch. [iOS:1.0.3]",
+   "Adam ID": 1000017994,
+   "Artist": "Cardiogram, Inc.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Health & Fitness; Mobile Software Applications > Medical",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "6.27 MON",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shadow Bug [iOS:1.2]",
+   "Adam ID": 1008719508,
+   "Artist": "Muro Studios Ltd.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Adventure; Mobile Software Applications > Games > Action; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 7,
+   "Store Date": "2016-07-28",
+   "Comments": "Really fun platformer where you can only jump by attacking enemies that are on screen. The update adds a bunch new levels",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Real Carrom [iOS:1.0.1]",
+   "Adam ID": 1105859833,
+   "Artist": "NextWave Multimedia Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Strategy; Mobile Software Applications > Sports; Mobile Software Applications > Games > Board",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Advanced Data Usage Tracker - smartapp [iOS:1.7]",
+   "Adam ID": 1091532822,
+   "Artist": "Times Internet Limited",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Utilities; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "The Little Fox [iOS:1.2.0]",
+   "Adam ID": 1117287410,
+   "Artist": "Oleg Batrakov",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "KORG Gadget [iOS:2.5.1]",
+   "Adam ID": 791077159,
+   "Artist": "KORG INC.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Music; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Heymarket: Business Text Messaging [iOS:1.1.8]",
+   "Adam ID": 985015852,
+   "Artist": "Common Sun, Inc",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Business; Mobile Software Applications > Productivity",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Duet Game [tvOS:3.6, iOS:3.6.1]",
+   "Adam ID": 634235735,
+   "Artist": "Kumobius",
+   "Store Type": "Apple TV",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "Artwork refresh to capture a new TV Logo\nrdar://problem/23271007",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Pinball Arcade [iOS:6.1.1]",
+   "Adam ID": 455826958,
+   "Artist": "FarSight Studios",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Simulation; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-01",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "왓챠플레이 - 첫달 무료! 영화 드라마 무제한 감상 [iOS:1.4.0]",
+   "Adam ID": 1096493180,
+   "Artist": "Frograms",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Entertainment; Mobile Software Applications > Photo & Video",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "The Little Fox [iOS:1.2.0]",
+   "Adam ID": 1117287410,
+   "Artist": "Oleg Batrakov",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Adventure",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Rai Euro2016 [iOS:1.1]",
+   "Adam ID": 1108049995,
+   "Artist": "Rai Net",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Sports; Mobile Software Applications > Entertainment",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "Flowcase"
+},
+ {
+   "Content Title": "Soon - the Everyday Bucket List for Movies, Restaurants, and More [iOS:2.7.2]",
+   "Adam ID": 939751975,
+   "Artist": "Beginner AB",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Lifestyle; Mobile Software Applications > Productivity",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Farfetch Discover – Luxury Shopping & Designer Fashion [iOS:2.1.6]",
+   "Adam ID": 907698760,
+   "Artist": "Farfetch",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Shopping; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 6,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Coordiful by おしゃれ天気 ー 今日のコーデがひと目できまる便利な無料天気予報アプリ [iOS:1.0.1]",
+   "Adam ID": 1115091536,
+   "Artist": "Recruit Holdings Co.,Ltd.",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Weather; Mobile Software Applications > Lifestyle",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "DDTAN by 111% [iOS:1.1]",
+   "Adam ID": 1124785372,
+   "Artist": "111%",
+   "Store Type": "All",
+   "Genres": "",
+   "Tracking Priority": 2,
+   "Featuring Priority": 2,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "픽미업 [iOS:1.0.5]",
+   "Adam ID": 1122334015,
+   "Artist": "Sticky Hands Inc.",
+   "Store Type": "All",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Arcade; Mobile Software Applications > Games > Simulation",
+   "Tracking Priority": 2,
+   "Featuring Priority": 2,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Shadeless - Endless Color Shades Puzzle Game! [iOS:1.1]",
+   "Adam ID": 1124099261,
+   "Artist": "Pine Entertainment",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Action; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "梦王国与沉睡的100王子 - 专为女性打造的恋爱手游 [iOS:1.8.2]",
+   "Adam ID": 1022258543,
+   "Artist": "Shuai Jiang",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Entertainment; Mobile Software Applications > Games > Card; Mobile Software Applications > Games > Puzzle",
+   "Tracking Priority": 3,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "美人鱼套圈圈(街机版) [iOS:1.0]",
+   "Adam ID": 1119075328,
+   "Artist": "MiYi Game",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games; Mobile Software Applications > Games > Puzzle; Mobile Software Applications > Games > Arcade",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "BBC Sport - Euro 2016, Wimbledon & more [iOS:1.8.14]",
+   "Adam ID": 377388936,
+   "Artist": "Media Applications Technologies Limited",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Sports",
+   "Tracking Priority": 0,
+   "Featuring Priority": 0,
+   "Store Date": "2016-07-28",
+   "Comments": "",
+   "New ": {
+      " Update": "Update"
+   },
+   "Feature Location": "None"
+},
+ {
+   "Content Title": "Satellina Zero",
+   "Adam ID": 1086476832,
+   "Artist": "Peter Smith",
+   "Store Type": "None",
+   "Genres": "Mobile Software Applications > Games",
+   "Tracking Priority": 2,
+   "Featuring Priority": 0,
+   "Store Date": "July (2016)",
+   "Comments": "",
+   "New ": {
+      " Update": "New"
+   },
+   "Feature Location": "None"
+}
+]
